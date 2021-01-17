@@ -1,5 +1,5 @@
 {
-  "name": "the-game-change-website",
+  "name": "The-Burger-Station-Website",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RomSanitovsky/the-game-change-website.git"
+    "url": "git+https://github.com/RomSanitovsky/The-Burger-Station-Website.git"
   },
   "author": "Omer Berger , Rom Sanitovsky , Eden Shtein , Or Levi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RomSanitovsky/the-game-change-website/issues"
+    "url": "https://github.com/RomSanitovsky/The-Burger-Station-Website/issues"
   },
-  "homepage": "https://github.com/RomSanitovsky/the-game-change-website#readme",
+  "homepage": "https://github.com/RomSanitovsky/The-Burger-Station-Website#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
