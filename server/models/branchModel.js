@@ -25,7 +25,10 @@ const branchSchema = new mongoose.Schema({
         type: mongoose.Schema.ObjectId,
         ref: 'Item'
     }],
-    
+},
+{
+    toJSON: {virtuals:true},
+    toObject: {virtuals:true}
 });
 
 const Branch = mongoose.model('Branch' , branchSchema);
