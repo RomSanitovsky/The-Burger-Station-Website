@@ -1,4 +1,4 @@
-export default function Topbar() {
+export default function TopBar() {
 
     return (
 
@@ -6,7 +6,7 @@ export default function Topbar() {
             <div className="container d-flex">
                 <div className="contact-info mr-auto">
                     <i className="icofont-phone" /> +1 5589 55488 55
-                        <span className="d-none d-lg-inline-block"><i className="icofont-clock-time icofont-rotate-180" /> Mon-Sat: 11:00 AM - 23:00 PM</span>
+                        <span className="d-none d-lg-inline-block"><i className="icofont-clock-time icofont-rotate-180" /> Sun-Sat: 11:00 AM - 23:00 PM</span>
                 </div>
             
             </div>

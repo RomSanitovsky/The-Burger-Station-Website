@@ -4,7 +4,7 @@ export default function Gallery() {
             <div className="container" data-aos="fade-up">
                 <div className="section-title">
                     <h2>Gallery</h2>
-                    <p>Some photos from Our Restaurant</p>
+                    <p>Say CHEESE-BURGER</p>
                 </div>
             </div>
             <div className="container-fluid" data-aos="fade-up" data-aos-delay={100}>

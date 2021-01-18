@@ -1,41 +1,39 @@
 import './App.css';
 import About from './components/about';
-import BacktoTop from './components/backtop';
-import Booktable from './components/booktable';
-import Chefs from './components/chefs';
+import BackToTop from './components/back-top';
+import BookTable from './components/book-table';
+import Stuff from './components/stuff';
 import Contact from './components/contact';
-import Events from './components/events';
 import Footer from './components/footer';
 import Gallery from './components/gallery';
 import Header from './components/header';
 import Hero from './components/hero';
 import Menu from './components/menu';
-import Specials from './components/specials';
+import Branch from './components/branch';
 import Testimonials from './components/testimonials';
-import Topbar from './components/topbar';
-import Whyus from './components/whyus';
+import TopBar from './components/top-bar';
+import WhyUs from './components/why-us';
 import {BrowserRouter, Link, Switch} from 'react-router-dom';
 
 function App() {
   return (
     <BrowserRouter>
-      <Topbar />
+      <TopBar />
       <Header />
       <Hero />
       <main id="main">
         <About />
-        <Whyus />
         <Menu />
-        <Specials />
-        <Events />
-        <Booktable />
+        <WhyUs />
+        <Branch />
+        <BookTable />
         <Testimonials />
         <Gallery />
-        <Chefs />
+        <Stuff />
         <Contact />
       </main>
       <Footer />
-      <BacktoTop />
+      <BackToTop />
 
     </BrowserRouter>
   );

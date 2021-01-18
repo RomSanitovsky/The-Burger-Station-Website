@@ -1,4 +1,4 @@
-export default function BacktoTop() {
+export default function BackToTop() {
     return (
         <div>
             <div id="preloader" />
