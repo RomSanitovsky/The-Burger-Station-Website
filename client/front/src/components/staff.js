@@ -1,10 +1,10 @@
-export default function Stuff() {
+export default function Staff() {
   return (
     <section id="chefs" className="chefs">
       <div className="container" data-aos="fade-up">
         <div className="section-title">
           <h2>Chefs</h2>
-          <p>Our Stuff</p>
+          <p>Our Staff</p>
         </div>
         <div className="row">
           <div className="col-lg-3 col-md-6">

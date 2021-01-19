@@ -2,7 +2,7 @@ import './App.css';
 import About from './components/about';
 import BackToTop from './components/back-top';
 import BookTable from './components/book-table';
-import Stuff from './components/stuff';
+import Staff from './components/staff';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import Gallery from './components/gallery';
@@ -29,7 +29,7 @@ function App() {
         <BookTable />
         <Testimonials />
         <Gallery />
-        <Stuff />
+        <Staff />
         <Contact />
       </main>
       <Footer />
