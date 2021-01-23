@@ -20,13 +20,13 @@ export default function Staff() {
                   <span>Master Chef</span>
                 </div>
                 <div className="social">
-                  <a href>
+                  <a href={"https://www.facebook.com/profile.php?id=1712209347&ref=br_rs"}>
                     <i className="icofont-facebook" />
                   </a>
-                  <a href>
+                  <a href="https://www.instagram.com/orlevi3/">
                     <i className="icofont-instagram" />
                   </a>
-                  <a href>
+                  <a href="https://www.linkedin.com/in/orlevi13/">
                     <i className="icofont-linkedin" />
                   </a>
                 </div>
@@ -46,13 +46,13 @@ export default function Staff() {
                   <span>Chief Supervisor</span>
                 </div>
                 <div className="social">
-                  <a href>
+                  <a href="https://www.facebook.com/profile.php?id=1116956108&ref=br_rs">
                     <i className="icofont-facebook" />
                   </a>
-                  <a href>
+                  <a href="https://www.instagram.com/edenshtein/">
                     <i className="icofont-instagram" />
                   </a>
-                  <a href>
+                  <a href="https://www.linkedin.com/in/edenshtein/">
                     <i className="icofont-linkedin" />
                   </a>
                 </div>
@@ -72,13 +72,13 @@ export default function Staff() {
                   <span>Regional Manager</span>
                 </div>
                 <div className="social">
-                  <a href>
+                  <a href="https://www.facebook.com/profile.php?id=1590558572&ref=br_rs">
                     <i className="icofont-facebook" />
                   </a>
                   <a href>
                     <i className="icofont-instagram" />
                   </a>
-                  <a href>
+                  <a href="https://www.linkedin.com/in/rom-sanitovsky-a38272197/">
                     <i className="icofont-linkedin" />
                   </a>
                 </div>
@@ -98,13 +98,13 @@ export default function Staff() {
                   <span>Executive Chairman</span>
                 </div>
                 <div className="social">
-                  <a href>
+                  <a href="https://www.facebook.com/profile.php?id=100019104633290">
                     <i className="icofont-facebook" />
                   </a>
-                  <a href>
+                  <a href="https://www.instagram.com/omer_berger/">
                     <i className="icofont-instagram" />
                   </a>
-                  <a href>
+                  <a href="https://www.linkedin.com/in/omerberger/">
                     <i className="icofont-linkedin" />
                   </a>
                 </div>
