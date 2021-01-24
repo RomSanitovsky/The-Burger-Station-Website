@@ -14,14 +14,9 @@ export default function Header() {
                 <nav className="nav-menu d-none d-lg-block">
                     <ul>
                         <li className="active"><Link to="/">Home</Link></li>
-                        <li><Link to="/login/">Login</Link></li>
-                        <li><Link to="/about">About</Link></li>
                         <li><Link to="/menu">Menu</Link></li>
-                        <li><Link to="#gallery">Gallery</Link></li>
-                        <li><Link to="#chefs">Chefs</Link></li>
                         <li><Link to="/branches">Branches</Link></li>
-                        <li><Link to="#contact">Contact</Link></li>
-                        <li className="book-a-table text-center"><Link to="#book-a-table">Book a table</Link></li>
+                        <li className="book-a-table text-center"><Link to="/login/">Login</Link></li>
                     </ul>
                 </nav>
             </div>
