@@ -11,24 +11,25 @@ router.use('/:itemId/reviews', reviewRouter);
 
 router
   .route('/')
-  .get(ItemController.get)
+  .get(ItemController.getAllItems)
   .post(
     authController.protect,
     authController.restrictTo('admin', 'user'),
-    ItemController.createTour
+    ItemController.createItem
   );
 
 router
   .route('/:id')
-  .get(ItemController.getTour)
+  .get(ItemController.getItem)
   .patch(
     authController.protect,
-    authController.restrictTo('admin', 'user'),
+    authController.restrictTo('admin'),
+    ItemController.updateItem
   )
   .delete(
     authController.protect,
-    authController.restrictTo('admin', 'lead-guide'),
-    ItemController.deleteTour
+    authController.restrictTo('admin'),
+    ItemController.deleteItem
   );
 
 module.exports = router;
