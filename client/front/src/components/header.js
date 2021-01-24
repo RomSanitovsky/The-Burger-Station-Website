@@ -1,4 +1,7 @@
-import { Link } from 'react-router-dom';
+
+
+import React, { useEffect, useRef } from "react"
+import Menu from './menu';
 
 export default function Header() {
 
@@ -9,8 +12,14 @@ export default function Header() {
                 <nav className="nav-menu d-none d-lg-block">
                     <ul>
                         <li className="active"><a href="index.html">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#menu">Menu</a></li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+
+                        <li className="active" onClick={() => window.location = "#menu"}> Menu</li>
+
+
+
                         <li><a href="#gallery">Gallery</a></li>
                         <li><a href="#chefs">Chefs</a></li>
                         <li><a href="#branches">Branches</a></li>
