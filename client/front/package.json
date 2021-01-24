@@ -13,11 +13,8 @@
     "react-router-hash-link": "^2.3.1",
     "react-scripts": "4.0.1",
     "react-scroll": "^1.8.1",
-<<<<<<< HEAD
     "react-scrollchor": "^6.0.0",
-=======
     "react-scroll-to-component": "^1.0.2",
->>>>>>> EdenClientBranch23121
     "web-vitals": "^0.2.4"
   },
   "scripts": {
