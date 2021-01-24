@@ -1,42 +1,25 @@
-import './App.css';
-import About from './components/about';
-import BackToTop from './components/back-top';
-import BookTable from './components/book-table';
-import Staff from './components/staff';
-import Contact from './components/contact';
-import Footer from './components/footer';
-import Gallery from './components/gallery';
-import Header from './components/header';
-import Hero from './components/hero';
-import Menu from './components/menu';
 import Branch from './components/branch';
-import Testimonials from './components/testimonials';
-import TopBar from './components/top-bar';
-import WhyUs from './components/why-us';
-import {BrowserRouter, Link, Switch} from 'react-router-dom';
+import BackToTop from './components/back-top';
+import Login from './components/login';
+import Menu from './components/menu';
+import Footer from './components/footer';
+import MainPage from './main-page';
+import { BrowserRouter, Link, Redirect, Route, Switch } from 'react-router-dom';
 
-function App() {
+
+export default function App() {
   return (
-    <BrowserRouter>
-      <TopBar />
-      <Header />
-      <Hero />
-      <main id="main">
-        <About />
-        <Menu />
-        <WhyUs />
-        <Branch />
-        <BookTable />
-        <Testimonials />
-        <Gallery />
-        <Staff />
-        <Contact />
-      </main>
-      <Footer />
-      <BackToTop />
-
-    </BrowserRouter>
+    <dev>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact component={MainPage} />
+          <Route path="/menu" component={Menu} />
+          <Route path="/branches"  component={Branch} />
+          <Route path="/login/"  component={Login} />
+        </Switch>
+        <Footer />
+        <BackToTop />
+      </BrowserRouter>
+    </dev>
   );
 }
-
-export default App;
