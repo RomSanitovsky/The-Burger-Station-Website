@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Italian Burger",
+        "price": 16.5,
+        "type": "food"
+    }, 
+    {
+        "name": "French Burger",
+        "price": 19,
+        "type": "food"
+    }, 
+    {
+        "name": "Austrian Burger",
+        "price": 14,
+        "type": "food"
+    }, 
+    {
+        "name": "American Burger",
+        "price": 16,
+        "type": "food"
+    }, 
+    {
+        "name": "California Burger",
+        "price": 17,
+        "type": "food"
+    }, 
+    {
+        "name": "Thai Burger",
+        "price": 12.5,
+        "type": "food"
+    }, 
+    {
+        "name": "Mexican Burger",
+        "price": 13,
+        "type": "food"
+    }, 
+    {
+        "name": "Bacon Cheeseburger",
+        "price": 18,
+        "type": "food"
+    }, 
+    {
+        "name": "Coca-Cola",
+        "price": 8,
+        "type": "drink"
+    }, 
+    {
+        "name": "Sprite",
+        "price": 8,
+        "type": "drink"
+    }, 
+    {
+        "name": "Fanta",
+        "price": 16.5,
+        "type": "drink"
+    }, 
+    {
+        "name": "Water",
+        "price": 5,
+        "type": "drink"
+    }, 
+    {
+        "name": "Corona-Beer",
+        "price": 12,
+        "type": "drink"
+    }
+
+]

@@ -4,26 +4,17 @@ const validator = require('validator');
 const itemSchema = new mongoose.Schema({
     name: {
         type: String,
-        require: [true , 'branch must have a Name']
+        required: [true , 'branch must have a Name']
     },
 
     price : {
         type: Number,
-        require: [true , 'item must have a price'],
+        required: [true , 'item must have a price'],
     },
-    active: {
-        type :Boolean,
-        default: true,
-        select: false
-    } ,
-    branchList : [{
-        type: mongoose.Schema.ObjectId,
-        ref: 'Branch'
-    }],
-    reviewList : [{
-        type: mongoose.Schema.ObjectId,
-        ref: 'Review'
-    }]
+    type: {
+        type: String,
+        enum: ['food', 'drink']
+    }
 },
 {
     toJSON: {virtuals:true},
