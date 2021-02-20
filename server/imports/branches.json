@@ -1,0 +1,44 @@
+[
+    {
+        "city": "Haifa",
+        "address": "Grinboim 44",
+        "district": "Northern"
+    },
+    {
+        "city": "Tel Aviv",
+        "address": "Ahad Aham 71",
+        "district": "Central"
+    },{
+        "city": "Petach Tikva",
+        "address": "4 Ben Hoor",
+        "district": "Central"
+    },{
+        "city": "Ashdod",
+        "address": "Haavoda 37",
+        "district": "Southern"
+    },{
+        "city": "Holon",
+        "address": "19 Habanai",
+        "district": "Central"
+    },{
+        "city": "Ramat Hasharon",
+        "address": "Boaz 6",
+        "district": "Central"
+    },{
+        "city": "Kiryat Motzkin",
+        "address": "Groshkevitz 34",
+        "district": "Northern"
+    },{
+        "city": "Jerusalem",
+        "address": "Emek Refaim 7",
+        "district": "Central"
+    },{
+        "city": "Afula",
+        "address": "Sprintzak 3",
+        "district": "Northern"
+    },{
+        "city": "Eilat",
+        "address": "Sderot Sheshet Hayamim 6",
+        "district": "Southern"
+    }
+]

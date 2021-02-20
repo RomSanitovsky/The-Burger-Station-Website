@@ -6,18 +6,18 @@ const crypto = require('crypto');
 const userSchema = new mongoose.Schema({
     firstName: {
         type: String,
-        require: [true , 'user must have a First Name']
+        required: [true , 'user must have a First Name']
     },
     lastName: {
         type: String,
-        require: [true , 'user must have a Last Name']
+        required: [true , 'user must have a Last Name']
     },
 
     email : {
         type: String,
-        require: [true , 'user must have an email'],
-        unique: [true],
-        lowercase: [true],
+        required: [true , 'user must have an email'],
+        unique: true,
+        lowercase: true,
         validate: [validator.isEmail, 'Please provide a valid email']
     },
     role :{

@@ -12,7 +12,7 @@ router
   .get(branchController.getAllBranches)
   .post(
     authController.protect,
-    authController.restrictTo('admin', 'lead-guide'),
+    authController.restrictTo('admin'),
     branchController.createBranch
   );
 
@@ -21,12 +21,12 @@ router
   .get(branchController.getBranch)
   .patch(
     authController.protect,
-    authController.restrictTo('admin', 'user'),
+    authController.restrictTo('admin'),
     branchController.updateBranch
   )
   .delete(
     authController.protect,
-    authController.restrictTo('admin', 'user'),
+    authController.restrictTo('admin'),
     branchController.deleteBranch
   );
 

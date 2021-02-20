@@ -14,7 +14,7 @@ router
   .get(ItemController.getAllItems)
   .post(
     authController.protect,
-    authController.restrictTo('admin', 'user'),
+    authController.restrictTo('admin'),
     ItemController.createItem
   );
 
