@@ -4,7 +4,7 @@ import TopBar from "./top-bar";
 export default function Menu() {
 
     return (
-        <div>
+        <div id="menu">
             <section></section>
             <section id="menu" className="menu section-bg">
                 <div className="container" data-aos="fade-up">
