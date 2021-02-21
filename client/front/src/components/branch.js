@@ -3,7 +3,7 @@ import TopBar from "./top-bar";
 
 export default function Branch() {
   return (
-    <div>
+    <div id="branch">
       <section></section>
       <section id="menu" className="menu section-bg">
         <div className="container" data-aos="fade-up">

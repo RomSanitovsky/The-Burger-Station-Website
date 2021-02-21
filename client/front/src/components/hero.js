@@ -1,3 +1,8 @@
+
+import { Anchor } from 'antd';
+
+const { Link } = Anchor;
+
 export default function Hero() {
     return (
         <section id="hero" className="d-flex align-items-center">
@@ -7,8 +12,10 @@ export default function Hero() {
                         <h1>Welcome to <span>Burger Station</span></h1>
                         <h2>Better cows = better burgers</h2>
                         <div className="btns">
-                            <a href="#menu" className="btn-menu animated fadeInUp scrollto">Our Menu</a>
-                            <a href="#book-a-table" className="btn-book animated fadeInUp scrollto">Book a Table</a>
+                            <Anchor>
+                                <Link href="#menu" title="Our Menu" className="btn-menu animated fadeInUp scrollto"/>
+                                <Link href="#book-a-table" title="Book a Table" className="btn-book animated fadeInUp scrollto"/>
+                            </Anchor>
                         </div>
                     </div>
                     <div className="col-lg-4 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay={200}>
