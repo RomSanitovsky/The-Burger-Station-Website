@@ -7,6 +7,7 @@ const helmet = require('helmet');
 const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const hpp = require('hpp');
+const cors = require('cors');
 
 const AppError = require('./utils/appError');
 const GlobalErrorHandler = require('./controllers/errorController')
@@ -19,6 +20,8 @@ const app = express();
 
 // 1) Global Middlewares
 // Set Security HTTP headers
+
+app.use(cors());
 app.use(helmet());
 
 console.log(process.env.NODE_ENV);
