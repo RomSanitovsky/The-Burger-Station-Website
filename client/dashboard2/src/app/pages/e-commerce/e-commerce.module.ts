@@ -11,6 +11,7 @@ import {
 } from '@nebular/theme';
 import { NgxEchartsModule } from 'ngx-echarts';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { ExtraComponentsModule } from '../extra-components/extra-components.module';
 
 import { ThemeModule } from '../../@theme/theme.module';
 import { ECommerceComponent } from './e-commerce.component';
@@ -71,6 +72,7 @@ import { EarningLiveUpdateChartComponent } from './earning-card/front-side/earni
     NgxEchartsModule,
     NgxChartsModule,
     LeafletModule,
+    ExtraComponentsModule,
   ],
   declarations: [
     ECommerceComponent,
