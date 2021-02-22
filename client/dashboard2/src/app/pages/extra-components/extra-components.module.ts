@@ -82,5 +82,8 @@ const MODULES = [
   declarations: [
     ...COMPONENTS,
   ],
+  exports: [
+    ...COMPONENTS,
+  ],
 })
 export class ExtraComponentsModule { }
