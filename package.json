@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/RomSanitovsky/The-Burger-Station-Website#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "concurrently": "^5.3.0",
     "cors": "^2.8.5"
   },
