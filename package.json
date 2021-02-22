@@ -5,7 +5,7 @@
   "scripts": {
     "server": "cd server && npm start",
     "front": "cd client\\front && npm start",
-    "dash": "cd client\\dashboard && npm start",
+    "dash": "cd client\\dashboard2 && npm start",
     "dev": "concurrently \"npm run server\" \"npm run front\" \"npm run dash\""
   },
   "repository": {
