@@ -16,7 +16,6 @@ export default function Header() {
                     <Link href="#about" title="About" />
                     <Link href="#whyUs" title="Why Us" />
                     <Link href="#branch" title="Branches" />
-                    <Link href="#testimonials" title="Testimonials" />
                     <Link href="#gallery" title="Gallery" />
                     <Link href="#staff" title="Staff" />
                     <Link href="#contact" title="Contact" />
