@@ -6,7 +6,6 @@ import Gallery from './components/gallery';
 import Hero from './components/hero';
 import Menu from './components/menu';
 import Branch from './components/branch';
-import Testimonials from './components/testimonials';
 import WhyUs from './components/why-us';
 import Header from './components/header';
 import TopBar from './components/top-bar';
@@ -23,7 +22,6 @@ function MainPage() {
         <WhyUs />
         <Branch />
         <BookTable />
-        <Testimonials />
         <Gallery />
         <Staff />
         <Contact />
