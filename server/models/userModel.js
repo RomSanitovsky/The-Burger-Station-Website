@@ -2,15 +2,14 @@ const mongoose = require('mongoose');
 const validator = require('validator');
 const bcrypt = require('bcryptjs');
 const crypto = require('crypto');
+const Item = require('./itemModel');
 
 const userSchema = new mongoose.Schema({
     firstName: {
         type: String,
-        required: [true , 'user must have a First Name']
     },
     lastName: {
         type: String,
-        required: [true , 'user must have a Last Name']
     },
 
     email : {
@@ -42,6 +41,10 @@ const userSchema = new mongoose.Schema({
             },
             message : 'Passwords are not the same'
         }
+    },
+    favItem: {
+        type: mongoose.Schema.ObjectId,
+        ref: 'Item'
     },
     passwordChangedAt: Date,
     passwordResetToken: String,

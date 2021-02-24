@@ -1,12 +1,11 @@
 const express = require('express');
 const ItemController = require('../controllers/itemController');
 const authController = require('../controllers/authController');
-const reviewRouter = require('./reviewRoutes');
+
 
 const router = express.Router();
 
 
-router.use('/:itemId/reviews', reviewRouter);
 
 
 router
