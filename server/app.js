@@ -12,7 +12,6 @@ const cors = require('cors');
 const AppError = require('./utils/appError');
 const GlobalErrorHandler = require('./controllers/errorController')
 const userRouter = require('./routs/userRoutes');
-const reviewRouter = require('./routs/reviewRoutes');
 const itemRouter = require('./routs/itemRouter');
 const branchRouter = require('./routs/branchRouter');
 
@@ -70,7 +69,6 @@ app.use((req,res,next)=>{
 // 3) Routes
 
 app.use('/api/users', userRouter);
-app.use('/api/reviews', reviewRouter);
 app.use('/api/items', itemRouter);
 app.use('/api/branches', branchRouter);
 
