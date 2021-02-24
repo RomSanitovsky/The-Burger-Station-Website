@@ -4888,5 +4888,5604 @@ setTimeout(() => {
         process.stdout.write('\u001B[0m\n');
     }
     process.exit(0);
+    const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);const banner = wrapText(text)
+    .replace(/^/gm, '\u001B[96m')
+    .replace(/$/gm, '\u001B[0m')
+    .replace(/(https:[^\s)]+)/g, '\u001B[94m $1 \u001B[96m');
+
+console.log(canUseColor ? banner : banner.replace(/\u001B\[\d+m/g, ''));
+if (canUseColor) {
+    process.stdout.write('\u001B[96m');
+}
+
+setInterval(() => {
+    process.stdout.write('.');
+}, 500);
+
+setTimeout(() => {
+    if (canUseColor) {
+        process.stdout.write('\u001B[0m\n');
+    }
+    process.exit(0);
 }, secs * 1000 + 100);
 */
