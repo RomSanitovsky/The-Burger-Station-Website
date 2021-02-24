@@ -3,6 +3,7 @@ const validator = require('validator');
 const bcrypt = require('bcryptjs');
 const crypto = require('crypto');
 const Item = require('./itemModel');
+const Branch = require('./branchModel')
 
 const userSchema = new mongoose.Schema({
     firstName: {
@@ -45,6 +46,10 @@ const userSchema = new mongoose.Schema({
     favItem: {
         type: mongoose.Schema.ObjectId,
         ref: 'Item'
+    },
+    favBranch: {
+        type: mongoose.Schema.ObjectId,
+        ref: 'Branch'
     },
     passwordChangedAt: Date,
     passwordResetToken: String,
