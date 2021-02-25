@@ -20,8 +20,8 @@ function MainPage() {
         <About />
         <Menu />
         <WhyUs />
-        <BookTable />
         <Branch />
+        <BookTable />
         <Gallery />
         <Staff />
         <Contact />

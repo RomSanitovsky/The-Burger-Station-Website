@@ -1,8 +1,8 @@
 export default function Gallery() {
     return (
         <div id="gallery">
-            <section id="gallery" className="gallery">
-                <div className="container" data-aos="fade-up">
+            <section id="gallery" className="gallery section-bg">
+                <div className="container " data-aos="fade-up">
                     <div className="section-title">
                         <h2>Gallery</h2>
                         <p>Say CHEESE-BURGER</p>

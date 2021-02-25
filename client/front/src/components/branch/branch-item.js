@@ -5,7 +5,7 @@ export default function BranchItem(props) {
   return (
     <div className={`col-lg-6 menu-item filter-${props.district}`}>
       <img
-        src="assets/img/city-icon.png"
+        src="assets/img/icons/city-icon.png"
         className="menu-img"
         alt=""
       />
@@ -15,6 +15,9 @@ export default function BranchItem(props) {
       </div>
       <div className="menu-ingredients">
         {props.address}
+      </div>
+      <div className="menu-ingredients">
+        <img src="assets/img/icons/delete.png" alt="" /> <img src="assets/img/icons/edit.png" alt="" />
       </div>
     </div>
   );

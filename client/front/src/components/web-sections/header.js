@@ -1,25 +1,25 @@
 
 
 import React from "react"
-
-import { Anchor } from 'antd';
-
-const { Link } = Anchor;
-
 export default function Header() {
 
     return (
         <header id="header" className="fixed-top">
             <div className="container d-flex align-items-center">
-                <h1 className="logo mr-auto">Burger Station</h1>
-                <Anchor>
-                    <Link href="#about" title="About" />
-                    <Link href="#whyUs" title="Why Us" />
-                    <Link href="#branch" title="Branches" />
-                    <Link href="#gallery" title="Gallery" />
-                    <Link href="#staff" title="Staff" />
-                    <Link href="#contact" title="Contact" />
-                </Anchor>
+                <h1 className="logo mr-auto"><a href="index.html">Burger Station</a></h1>
+                <nav className="nav-menu d-none d-lg-block">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#why-us">Why Us?</a></li>
+                        <li><a href="#branches">Branches</a></li>
+                        <li><a href="#book-a-table">Book a Table</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#chefs">Staff</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li className="book-a-table text-center"><a href="#book-a-table">User Info</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
 

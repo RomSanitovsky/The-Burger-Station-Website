@@ -21,9 +21,9 @@ export default function WhyUs() {
             <div className="col-lg-4 mt-4 mt-lg-0">
               <div className="box" data-aos="zoom-in" data-aos-delay={200}>
                 <span>02</span>
-                <h4>Medium Station - $27</h4>
+                <h4>Medium Station - 21 $</h4>
                 <p>
-                  2 Free Refills Unlimited Wi-Fi Usage By Ordering Burger + Soft
+                  3 Free Refills Unlimited Wi-Fi Usage By Ordering Burger + Soft
                   Drink
                 </p>
               </div>
@@ -31,7 +31,7 @@ export default function WhyUs() {
             <div className="col-lg-4 mt-4 mt-lg-0">
               <div className="box" data-aos="zoom-in" data-aos-delay={300}>
                 <span>03</span>
-                <h4> Mega Station - $30</h4>
+                <h4> Mega Station - 25 $</h4>
                 <p>
                   Unlimited Refills Unlimited Wi-Fi Usage By Ordering Burger +
                   Soft Drink

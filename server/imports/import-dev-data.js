@@ -5,7 +5,7 @@ const Item = require('../models/itemModel');
 const Branch = require('../models/branchModel');
 
 
-dotenv.config({ path: './server/config.env' });
+dotenv.config({ path: '../config.env' });
 const DB = process.env.DATABASE.replace(
   '<password>',
   process.env.DATABASE_PASSWORD
