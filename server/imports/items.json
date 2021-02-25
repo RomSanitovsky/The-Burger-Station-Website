@@ -63,6 +63,65 @@
         "name": "Corona-Beer",
         "price": 12,
         "type": "drink"
+    },
+    {
+        "name": "Australian Cheeseburger",
+        "price": 14,
+        "type": "food"
+    },
+    {
+        "name": "Bacon Cheeseburger",
+        "price": 14,
+        "type": "food"
+    },
+    {
+        "name": "Crispy Chicken Burger",
+        "price": 11,
+        "type": "food"
+    },
+    {
+        "name": "Fish Burger",
+        "price": 12,
+        "type": "food"
+    },
+    {
+        "name": "Indian Spicy Lamb Burger",
+        "price": 14,
+        "type": "food"
+    },
+    {
+        "name": "Israeli Burger",
+        "price": 13,
+        "type": "food"
+    },
+    {
+        "name": "Japanese Burger",
+        "price": 14,
+        "type": "food"
+    },
+    {
+        "name": "Las Vegas Cheeseburger",
+        "price": 14,
+        "type": "food"
+    },
+    {
+        "name": "Mexican Burger",
+        "price": 15,
+        "type": "food"
+    },
+    {
+        "name": "Milkshake Coffee",
+        "price": 8,
+        "type": "drink"
+    },
+    {
+        "name": "Milkshake Chocolate",
+        "price": 8,
+        "type": "drink"
+    },
+    {
+        "name": "Milkshake Cherry",
+        "price": 8,
+        "type": "drink"
     }
-
 ]
