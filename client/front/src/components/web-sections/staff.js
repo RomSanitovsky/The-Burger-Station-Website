@@ -1,11 +1,11 @@
 export default function Staff() {
   return (
     <div id="staff">
-      <section id="chefs" className="chefs">
+      <section id="chefs" className="chefs ">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
-            <h2>Chefs</h2>
-            <p>Our Staff</p>
+            <h2>Staff</h2>
+            <p>Our Demigods</p>
           </div>
           <div className="row">
             <div className="col-lg-3 col-md-6">
