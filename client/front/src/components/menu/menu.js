@@ -30,7 +30,10 @@ export default class Menu extends React.Component {
                     <div className="container" data-aos="fade-up">
                         <div className="section-title">
                             <h2>Menu</h2>
-                            <p>For your taste buds <img src="assets/img/icons/sort-btn.png" alt="" /></p>
+                            <p>For your taste buds
+                                <img src="assets/img/icons/sort-btn.png" alt="" />
+                                <img src="assets/img/icons/plus.png" alt="" />
+                            </p>
                         </div>
                         <div className="row" data-aos="fade-up" data-aos-delay={100}>
                             <div className="col-lg-12 d-flex justify-content-center">
