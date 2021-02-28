@@ -43,6 +43,7 @@
     "prettier": "^2.1.2",
     "pug": "^3.0.0",
     "slugify": "^1.4.6",
+    "socket.io": "^3.1.2",
     "validator": "^13.1.17",
     "xss": "^1.0.8",
     "xss-clean": "^0.1.1"
