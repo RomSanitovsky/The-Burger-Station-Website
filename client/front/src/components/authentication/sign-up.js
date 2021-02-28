@@ -1,19 +1,41 @@
 import React, { Component } from "react";
+import  { useState } from "react";
 
-export default class SignUp extends Component {
-    render() {
+function SignUp(){
+    const [fullName, setFullName] = useState({
+        fName: "",
+        lName: ""
+      });
+    
+      function handleChange(event) {
+        const { value, name } = event.target;
+    
+        setFullName(prevValue => {
+          if (name === "fName") {
+            return {
+              fName: value,
+              lName: prevValue.lName
+            };
+          } else if (name === "lName") {
+            return {
+              fName: prevValue.fName,
+              lname: value
+            };
+          }
+        });
+      }
         return (
             <div id="book-a-table">
                 <section id="book-a-table" className="book-a-table">
                     <div className="container" data-aos="fade-up">
                         <div className="section-title">
                             <h2>Sign Up</h2>
-                            <p>Come to the tasty side</p>
+                            <p>Come to the tasty side {fullName.fName}</p>
                         </div>
                         <form action="forms/book-a-table.php" className="php-email-form" >
                             <div className="form-row">
                                 <div className="col-lg-12 col-md-12 form-group">
-                                    <input type="text" name="username" className="form-control" id="username" placeholder="Your Username" data-rule="minlen:4" data-msg="Please enter at least 4 chars" autocomplete="off" />
+                                    <input type="text" name="fName" className="form-control" id="username" onChange={handleChange} value={fullName.fName} placeholder="Your Username" data-rule="minlen:4" data-msg="Please enter at least 4 chars" autocomplete="off" />
                                     <div className="validate" />
                                 </div>
                                 <div className="col-lg-12 col-md-12 form-group">
@@ -55,4 +77,4 @@ export default class SignUp extends Component {
             </div>
         );
     }
-}
+    export default SignUp;
