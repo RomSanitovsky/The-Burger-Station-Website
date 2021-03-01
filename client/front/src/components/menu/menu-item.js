@@ -13,7 +13,7 @@ export default function MenuItem(props) {
                 <Link to="/deleteitem">
                     <img src="assets/img/icons/delete.png" />
                 </Link>
-                <Link to="/edititem">
+                <Link to={`/edititem/${props.id}/${props.name}/${props.price}/${props.type}`}>
                     <img src="assets/img/icons/edit.png" />
                 </Link>
             </div>

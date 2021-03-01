@@ -20,7 +20,7 @@ export default function App() {
           <Route path="/signin/" component={SignIn} />
           <Route path="/signup/" component={SignUp} />
           <Route path="/createitem/" component={CreateMenuItem} />
-          <Route path="/edititem/" component={EditMenuItem} />
+          <Route path="/edititem/:id/:name/:price/:type" component={EditMenuItem} />
           <Route path="/edituser/" component={EditUser} />
           <Route path="/edititem/" component={EditMenuItem} />
           <Route path="/editbranch/" component={EditBranchItem} />

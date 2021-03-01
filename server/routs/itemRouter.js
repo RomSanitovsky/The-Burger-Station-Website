@@ -12,8 +12,8 @@ router
   .route('/')
   .get(ItemController.getAllItems)
   .post(
-    authController.protect,
-    authController.restrictTo('admin'),
+    // authController.protect,
+    // authController.restrictTo('admin'),
     ItemController.createItem
   );
 
@@ -21,8 +21,8 @@ router
   .route('/:id')
   .get(ItemController.getItem)
   .patch(
-    authController.protect,
-    authController.restrictTo('admin'),
+    // authController.protect,
+    // authController.restrictTo('admin'),
     ItemController.updateItem
   )
   .delete(

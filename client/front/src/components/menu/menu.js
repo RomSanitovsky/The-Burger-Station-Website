@@ -49,7 +49,7 @@ export default class Menu extends React.Component {
                             </div>
                         </div>
                         <div className="row menu-container" data-aos="fade-up" data-aos-delay={200}>
-                            {this.state.items.map(obj => (<MenuItem name={obj.name} price={obj.price} type={obj.type} ></MenuItem>))}
+                            {this.state.items.map(obj => (<MenuItem id={obj._id} name={obj.name} price={obj.price} type={obj.type} ></MenuItem>))}
                         </div>
                     </div>
                 </section>
