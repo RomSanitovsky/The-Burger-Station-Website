@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 
 export default class Login extends Component {
     render() {
@@ -26,7 +27,11 @@ export default class Login extends Component {
                                 <div className="error-message" />
                                 <div className="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
                             </div>
-                            <div className="text-center"><button type="submit">Sign In</button></div>
+                            <div className="text-center"><button type="submit">Sign In</button>         <Link to="/">
+                            <button type="submit">
+                                Back
+     </button>
+                        </Link></div>
                         </form>
                     </div>
                 </section>
