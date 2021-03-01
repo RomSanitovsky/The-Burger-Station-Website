@@ -6,7 +6,7 @@ function SignUp(){
         fName: "",
         lName: ""
       });
-    
+      //handle the change
       function handleChange(event) {
         const { value, name } = event.target;
     
