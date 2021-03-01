@@ -11,6 +11,7 @@ import { ChatService } from './chat.service';
 export class ChatComponent {
 
   messages: any[];
+  words: [];
 
   constructor(protected chatService: ChatService) {
     this.messages = this.chatService.loadMessages();
