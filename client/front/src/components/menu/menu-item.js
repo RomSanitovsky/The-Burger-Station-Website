@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
 export default function MenuItem(props) {
 
     return (
@@ -11,7 +10,12 @@ export default function MenuItem(props) {
                 <a>{props.name}</a><span>{props.price + " $"}</span>
             </div>
             <div className="menu-ingredients">
-            <Link to="/signup"><img src="assets/img/icons/delete.png"/> </Link> <Link to="/signup"><img src="assets/img/icons/edit.png"/></Link>
+                <Link to="/deleteitem">
+                    <img src="assets/img/icons/delete.png" />
+                </Link>
+                <Link to="/edititem">
+                    <img src="assets/img/icons/edit.png" />
+                </Link>
             </div>
         </div>
     );
