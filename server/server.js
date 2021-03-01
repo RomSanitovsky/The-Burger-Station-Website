@@ -42,6 +42,7 @@ mongoose.connect(DB ,
         });
     });
     
+    //Ignore
     const io = socket(server);
     // eslint-disable-next-line no-shadow
     io.on('connection', (socket) => {
