@@ -32,7 +32,7 @@ export default function CreateMenuItem() {
                         <div className="text-center">
                             <Link to="/">
                                 <button type="submit" className="col-lg-12 col-md-12">
-                                    Edit
+                                    Create
                                 </button>
                             </Link>
                             <p></p>

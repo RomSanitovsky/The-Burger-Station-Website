@@ -32,9 +32,9 @@ export default class Menu extends React.Component {
                         <div className="section-title">
                             <h2>Menu</h2>
                             <p>For your taste buds
-                                <img src="assets/img/icons/sort-btn.png" alt="" />
+                                <img src="assets/img/icons/sort-btn.png" alt="" style={{ paddingLeft: '40px' }} />
                                 <Link to="/createitem">
-                                    <img src="assets/img/icons/plus.png" alt="" />
+                                    <img src="assets/img/icons/plus.png" alt="" style={{ paddingLeft: '40px' }} />
                                 </Link>
                             </p>
                         </div>
