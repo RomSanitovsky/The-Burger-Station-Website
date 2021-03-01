@@ -27,11 +27,19 @@ export default class Login extends Component {
                                 <div className="error-message" />
                                 <div className="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
                             </div>
-                            <div className="text-center"><button type="submit">Sign In</button>         <Link to="/">
-                            <button type="submit">
-                                Back
-     </button>
-                        </Link></div>
+                            <div className="text-center">
+                                <button type="submit">
+                                    Sign In
+                                    </button>
+                            </div>
+                            <p></p>
+                            <div className="text-center">
+                                <Link to="/signup">
+                                    <button type="submit">
+                                        Want to join to the tasty side? Sign Up
+                                    </button>
+                                </Link>
+                            </div>
                         </form>
                     </div>
                 </section>

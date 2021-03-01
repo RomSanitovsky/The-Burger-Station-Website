@@ -35,7 +35,6 @@ function SignUp() {
         else { console.log("else"); console.log(branches) }
     }, [branches])
 
-    //handle the change
     function handleChange(event) {
         const { value, name } = event.target;
 
@@ -107,18 +106,21 @@ function SignUp() {
                             <div className="error-message" />
                             <div className="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
                         </div>
-                        <div className="text-center"><button type="submit">Sign Up</button>         <Link to="/">
-                            <button type="submit">
-                                Back
-     </button>
-                        </Link></div>
-
-
-                        <div className="text-center"><Link to="/Signin">
-                            <button type="submit">
-                                Already have a user? Sign In
-     </button>
-                        </Link></div>
+                        <div className="text-center">
+                            <Link to="/">
+                                <button type="submit">
+                                    Sign Up
+                                </button>
+                            </Link>
+                        </div>
+                        <br></br>
+                        <div className="text-center">
+                            <Link to="/signin">
+                                <button type="submit">
+                                    Already have a user? Sign In
+                                </button>
+                            </Link>
+                        </div>
                     </form>
                 </div>
             </section>

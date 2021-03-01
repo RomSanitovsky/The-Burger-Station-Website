@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 import MenuItem from './menu-item'
 export default class Menu extends React.Component {
 
@@ -32,7 +33,9 @@ export default class Menu extends React.Component {
                             <h2>Menu</h2>
                             <p>For your taste buds
                                 <img src="assets/img/icons/sort-btn.png" alt="" />
-                                <img src="assets/img/icons/plus.png" alt="" />
+                                <Link to="/createitem">
+                                    <img src="assets/img/icons/plus.png" alt="" />
+                                </Link>
                             </p>
                         </div>
                         <div className="row" data-aos="fade-up" data-aos-delay={100}>

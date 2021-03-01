@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function CreateBranchItem() {
     return (
         <div id="book-a-table">
@@ -5,7 +7,7 @@ export default function CreateBranchItem() {
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
                         <h2>Branch</h2>
-                        <p>Edit branch</p>
+                        <p>Create branch</p>
                     </div>
                     <form action="forms/book-a-table.php" className="php-email-form" >
                         <div className="form-row">
@@ -37,7 +39,19 @@ export default function CreateBranchItem() {
                             <div className="error-message" />
                             <div className="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
                         </div>
-                        <div className="text-center"><button type="submit">Edit</button></div>
+                        <div className="text-center">
+                            <Link to="/">
+                                <button type="submit" className="col-lg-12 col-md-12">
+                                    Create
+                                </button>
+                            </Link>
+                            <p> </p>
+                            <Link to="/">
+                                <button type="submit" className="col-lg-12 col-md-12">
+                                    Back
+                                </button>
+                            </Link>
+                        </div>
                     </form>
                 </div>
             </section>

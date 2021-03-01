@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 import BranchItem from './branch-item';
 export default class Branch extends React.Component {
 
@@ -33,7 +34,9 @@ export default class Branch extends React.Component {
               <h2>Branches</h2>
               <p>We can bet that you will never find better
                 <img src="assets/img/icons/sort-btn.png" alt="" />
-                <img src="assets/img/icons/plus.png" alt="" />
+                <Link to="/createbranch">
+                  <img src="assets/img/icons/plus.png" alt="" />
+                </Link>
               </p>
             </div>
             <div className="row" data-aos="fade-up" data-aos-delay={100}>
