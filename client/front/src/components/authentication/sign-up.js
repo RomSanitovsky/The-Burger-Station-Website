@@ -1,11 +1,29 @@
 import React, { Component } from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useHistory } from "react";
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 
 
 function SignUp() {
+    //const history = useHistory();
+    const [username, setUsername] = useState();
+    const [email, setEmail] = useState();
+    const [password, setPassword] = useState();
+    const [passwordConfirm, setPasswordConfirm] = useState();
+    const [favItem, setFavItem] = useState();
+    const [favBranch, setFavBranch] = useState();
+
+    const handleSubmit = async event => {
+        event.preventDefault();
+        if (username.length < 1 || email.length < 1 || password.length < 1)
+            return alert('all fields are required');
+
+        const newUser = { username, email, password, passwordConfirm, favItem, favBranch };
+        await axios.post('http://localhost:8000/api/users', newUser);
+        //history.push('/');
+    };
+
     const [fullName, setFullName] = useState({
         fName: "",
         lName: ""
@@ -35,23 +53,23 @@ function SignUp() {
         else { console.log("else"); console.log(branches) }
     }, [branches])
 
-    function handleChange(event) {
-        const { value, name } = event.target;
-
-        setFullName(prevValue => {
-            if (name === "fName") {
-                return {
-                    fName: value,
-                    lName: prevValue.lName
-                };
-            } else if (name === "lName") {
-                return {
-                    fName: prevValue.fName,
-                    lname: value
-                };
-            }
-        });
-    }
+    /* function handleChange(event) {
+         const { value, name } = event.target;
+ 
+         setFullName(prevValue => {
+             if (name === "fName") {
+                 return {
+                     fName: value,
+                     lName: prevValue.lName
+                 };
+             } else if (name === "lName") {
+                 return {
+                     fName: prevValue.fName,
+                     lname: value
+                 };
+             }
+         });
+     }*/
     return (
 
         <div id="book-a-table">
@@ -59,32 +77,32 @@ function SignUp() {
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
                         <h2>Sign Up</h2>
-                        <p>Come to the tasty side {fullName.fName}</p>
+                        <p>Come to the tasty side</p>
                     </div>
 
-                    <form action="forms/book-a-table.php" className="php-email-form" >
+                    <form onSubmit={handleSubmit} action="forms/book-a-table.php" className="php-email-form" >
                         <div className="form-row">
                             <div className="col-lg-12 col-md-12 form-group">
-                                <input type="text" name="fName" className="form-control" id="username" onChange={handleChange} value={fullName.fName} placeholder="Your Username" data-rule="minlen:4" data-msg="Please enter at least 4 chars" autocomplete="off" />
+                                <input type="text" name="username" className="form-control" id="username" onChange={({ target: { value } }) => setUsername(value)} value={username} placeholder="Your Username" data-rule="minlen:4" data-msg="Please enter at least 4 chars" autocomplete="off" />
                                 <div className="validate" />
                             </div>
                             <div className="col-lg-12 col-md-12 form-group">
-                                <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" autocomplete="off" />
+                                <input type="email" onChange={({ target: { value } }) => setEmail(value)} value={email} className="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" autocomplete="off" />
                                 <div className="validate" />
                             </div>
                             <div className="col-lg-12 col-md-12 form-group">
-                                <input type="text" name="password" className="form-control" id="password" placeholder="Your Password" data-rule="minlen:4" data-msg="Please enter at least 4 chars" autocomplete="off" />
+                                <input type="password" onChange={({ target: { value } }) => setPassword(value)} value={password} name="password" className="form-control" id="password" placeholder="Your Password" data-rule="minlen:4" data-msg="Please enter at least 4 chars" autocomplete="off" />
                                 <div className="validate" />
                             </div>
                             <div className="col-lg-12 col-md-12 form-group">
-                                <input type="text" name="confirm-password" className="form-control" id="confirm-password" placeholder="Confirm Your Password" data-rule="minlen:4" data-msg="Please enter at least 4 chars" autocomplete="off" />
+                                <input type="password" onChange={({ target: { value } }) => setPasswordConfirm(value)} value={passwordConfirm} name="passwordConfirm" className="form-control" id="confirm-password" placeholder="Confirm Your Password" data-rule="minlen:4" data-msg="Please enter at least 4 chars" autocomplete="off" />
                                 <div className="validate" />
                             </div>
                             <div className="col-lg-12 col-md-12 form-group">
                                 <div className="section-title">
                                     <h2>Choose Your Favorite Burger</h2>
                                 </div>
-                                <select name="fav-item" className="form-control" id="fav-item" placeholder="Choose Your Favorite Burger" data-rule="minlen:4" autocomplete="off">
+                                <select name="favItem" onChange={({ target: { value } }) => value !== '' && setFavItem(value)} value={favItem} className="form-control" id="fav-item" placeholder="Choose Your Favorite Burger" data-rule="minlen:4" autocomplete="off">
                                     <option> {" "}</option>
                                     {items.map(item => { if (item.name.includes("Burger") || item.name.includes("burger")) { return <option>{item.name}</option> } })}
                                 </select>
@@ -94,7 +112,7 @@ function SignUp() {
                                 <div className="section-title">
                                     <h2>Choose Your Favorite Branch</h2>
                                 </div>
-                                <select name="fav-branch" className="form-control" id="fav-branch" placeholder="Choose Your Favorite Branch" data-rule="minlen:4" autocomplete="off" >
+                                <select name="favBranch" onChange={({ target: { value } }) => value !== '' && setFavBranch(value)} value={favBranch} className="form-control" id="fav-branch" placeholder="Choose Your Favorite Branch" data-rule="minlen:4" autocomplete="off" >
                                     <option> {" "}</option>
                                     {branches.map(item => <option>{item.address} {item.city} {item.district}</option>)}
                                 </select>
