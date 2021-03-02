@@ -1,26 +1,47 @@
-<nb-card>
-  
+<nb-card class="list-card" size="small">
+  <nb-card-header>Admin Chat</nb-card-header>
   <nb-card-body>
     <div class="row">
-      <div class="chat-container col-md-12 col-lg-6 col-xxxl-6">
-        <nb-chat title="AI chat" size="large" status="primary">
-          <nb-chat-message *ngFor="let msg of messages"
-                           [type]="msg.type"
-                           [message]="msg.text"
-                           [reply]="msg.reply"
-                           [sender]="msg.user.name"
-                           [date]="msg.date"
-                           [files]="msg.files"
-                           [quote]="msg.quote"
-                           [latitude]="msg.latitude"
-                           [longitude]="msg.longitude"
-                           [avatar]="msg.user.avatar">
-          </nb-chat-message>
-          <nb-chat-form (send)="sendMessage($event)" [dropFiles]="true">
-          </nb-chat-form>
-        </nb-chat>
+      <div class="col-lg-6" id="chat-applicaton">
+        <div id="chat-window">
+          <div id="output" *ngFor="let data of output">
+            <p>
+              <strong>{{ data.handle }} : </strong>{{ data.message }}
+            </p>
+          </div>
+          <div id="feedback">
+            <p>{{ feedback }}</p>
+          </div>
+        </div>
+        
       </div>
+    </div>
     
+    <div class="col-lg-6">
+        <input type="text" nbInput fullWidth shape="round"
+          id="handle"
+          
+          [(ngModel)]="userName"
+          placeholder="Handle"
+        />
+        <input type="text" nbInput fullWidth shape="round"
+          id="message"
+          
+          [(ngModel)]="message"
+          placeholder="Message"
+          autocomplete="off"
+          (keypress)="messageTyping()"
+        />
+        <div class="buttons-row">
+        <button primary nbButton 
+          type="button"
+          id="send"
+          style="cursor: pointer"
+          (click)="sendMessage()"
+        >
+          Send
+        </button>
+      </div>
     </div>
   </nb-card-body>
 </nb-card>

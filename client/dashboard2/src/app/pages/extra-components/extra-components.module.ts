@@ -1,4 +1,7 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+
 import {
   NbActionsModule,
   NbAlertModule,
@@ -31,6 +34,7 @@ import {
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { AlertComponent } from './alert/alert.component';
 import { ChatComponent } from './chat/chat.component';
+import { ChatService } from './chat/chat.service';
 import { CalendarComponent } from './calendar/calendar.component';
 import { DayCellComponent } from './calendar/day-cell/day-cell.component';
 import { NebularFormInputsComponent } from './form-inputs/nebular-form-inputs.component';
@@ -73,6 +77,8 @@ const MODULES = [
   NbTabsetModule,
   ThemeModule,
   ExtraComponentsRoutingModule,
+  FormsModule,
+  HttpClientModule,
 ];
 
 @NgModule({
@@ -85,5 +91,6 @@ const MODULES = [
   exports: [
     ...COMPONENTS,
   ],
+  providers: [ChatService]
 })
 export class ExtraComponentsModule { }
