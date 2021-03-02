@@ -1,57 +1,91 @@
-@import '~bootstrap/scss/mixins/breakpoints';
-@import '~@nebular/theme/styles/global/breakpoints';
+/* Chat containers */
+.container {
+  border: 2px solid #dedede00;
+  background-color: #cccccc38;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
 
-@import '../../../@theme/styles/themes';
+/* Darker chat container */
+.darker {
+  border-color: rgba(204, 204, 204, 0);
+  background-color: rgba(35, 130, 207, 0.596);
+}
 
-@include nb-install-component() {
-  ::ng-deep nb-layout-column {
-    justify-content: center;
-    display: flex;
+/* Clear floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.full-name-inputs,
+.validation-checkboxes {
+  display: flex;
+  margin: 0 -0.5rem;
+
+  > * {
+    margin: 0 0.5rem;
   }
+}
 
-  nb-chat {
-    margin: 3rem auto 0;
-    width: 500px;
+.checkbox-radio {
+  display: flex;
+}
 
-  }
+.demo-items {
+  flex: 1 0 33%;
+}
 
-  .chat-container {
-    margin-bottom: 2rem;
+input[type=text], select {
+  width: 100%;
+  background-color: #ffffff71;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
-    li {
-      padding-top: 1rem;
-    }
-  }
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #1e69f4;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px 20px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 8px;
+}
 
-  .chart-description {
-    text-align: center;
-    margin: 0 auto;
-    width: 52%;
-  }
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
-  .chart-features {
-    margin-top: 2.75rem;
-  }
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
 
-  @include media-breakpoint-down(xxl) {
-    nb-chat {
-      width: 400px;
-    }
-  }
+.button:hover span {
+  padding-right: 25px;
+}
 
-  @include media-breakpoint-down(md) {
-    nb-chat {
-      width: 400px;
-    }
-
-    .chart-description {
-      width: 90%;
-    }
-  }
-
-  @include media-breakpoint-down(is) {
-    nb-chat {
-      width: 300px;
-    }
-  }
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }

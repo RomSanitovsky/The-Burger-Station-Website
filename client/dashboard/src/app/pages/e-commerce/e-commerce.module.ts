@@ -12,6 +12,7 @@ import {
 import { NgxEchartsModule } from 'ngx-echarts';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { ExtraComponentsModule } from '../extra-components/extra-components.module';
+import { FormsModule } from '../forms/forms.module';
 
 import { ThemeModule } from '../../@theme/theme.module';
 import { ECommerceComponent } from './e-commerce.component';
@@ -45,7 +46,6 @@ import { ECommerceLegendChartComponent } from './legend-chart/legend-chart.compo
 import { ECommerceUserActivityComponent } from './user-activity/user-activity.component';
 import { ECommerceProgressSectionComponent } from './progress-section/progress-section.component';
 import { SlideOutComponent } from './slide-out/slide-out.component';
-
 import { CountryOrdersComponent } from './country-orders/country-orders.component';
 import { CountryOrdersMapComponent } from './country-orders/map/country-orders-map.component';
 import { CountryOrdersMapService } from './country-orders/map/country-orders-map.service';
@@ -73,6 +73,7 @@ import { EarningLiveUpdateChartComponent } from './earning-card/front-side/earni
     NgxChartsModule,
     LeafletModule,
     ExtraComponentsModule,
+    FormsModule,
   ],
   declarations: [
     ECommerceComponent,

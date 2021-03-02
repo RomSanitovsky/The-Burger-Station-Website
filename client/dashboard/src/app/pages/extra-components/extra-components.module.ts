@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule as ngFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 
 import {
@@ -20,6 +20,8 @@ import {
 
 import { ThemeModule } from '../../@theme/theme.module';
 import { ExtraComponentsRoutingModule } from './extra-components-routing.module';
+import { FormsModule } from '../forms/forms.module';
+
 
 // components
 import { ExtraComponentsComponent } from './extra-components.component';
@@ -77,8 +79,9 @@ const MODULES = [
   NbTabsetModule,
   ThemeModule,
   ExtraComponentsRoutingModule,
-  FormsModule,
   HttpClientModule,
+  ngFormsModule,
+  FormsModule,
 ];
 
 @NgModule({

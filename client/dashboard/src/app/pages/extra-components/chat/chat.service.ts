@@ -1,8 +1,6 @@
 import { Injectable } from '@angular/core';
 import * as io from 'socket.io-client';
 import {Observable} from "rxjs/Observable";
-import { messages } from './messages';
-import { botReplies, gifsLinks, imageLinks } from './bot-replies';
 
 @Injectable()
 export class ChatService {
