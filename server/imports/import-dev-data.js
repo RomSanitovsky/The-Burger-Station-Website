@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const Item = require('../models/itemModel');
 const Branch = require('../models/branchModel');
-
+const User = require('../models/userModel');
 
 dotenv.config({ path: '../config.env' });
 const DB = process.env.DATABASE.replace(
@@ -15,13 +15,18 @@ mongoose
   .connect(DB, {
     useNewUrlParser: true,
     useCreateIndex: true,
-    useFindAndModify: false
+    useFindAndModify: false,
   })
   .then(() => console.log('DB connection successful!'));
 
 // READ JSON FILE
 const items = JSON.parse(fs.readFileSync(`${__dirname}/items.json`, 'utf-8'));
-const branches = JSON.parse(fs.readFileSync(`${__dirname}/branches.json`, 'utf-8'));
+const branches = JSON.parse(
+  fs.readFileSync(`${__dirname}/branches.json`, 'utf-8')
+);
+const users = JSON.parse(
+  fs.readFileSync(`${__dirname}/Userdata.json`, 'utf-8')
+);
 
 // IMPORT DATA INTO DB
 const importData = async () => {
@@ -29,6 +34,8 @@ const importData = async () => {
     await Item.create(items);
     // await User.create(users, { validateBeforeSave: false });
     await Branch.create(branches);
+
+    await User.create(users);
     console.log('Data successfully loaded!');
   } catch (err) {
     console.log(err);
@@ -41,6 +48,7 @@ const deleteData = async () => {
   try {
     await Item.deleteMany();
     await Branch.deleteMany();
+    await User.deleteMany();
     console.log('Data successfully deleted!');
   } catch (err) {
     console.log(err);
