@@ -1,0 +1,38 @@
+<p>branches: </p>
+
+<ul *ngFor="let a of branches">
+    <mat-nav-list>
+        <a mat-list-item style="text-align: center;margin-right: 30px;">
+            <span mat-line>{{a._id}}      </span>
+            <span mat-line>{{a.address}}      </span>
+            <span mat-line>{{a.city}}    </span>
+            <span mat-line>{{a.district}}  </span>
+            <span mat-line>{{a.itemList}} </span>
+        </a>
+    </mat-nav-list>
+</ul>
+
+<p>items: </p>
+
+<ul *ngFor="let a of items">
+    <mat-nav-list>
+        <a mat-list-item style="text-align: center;margin-right: 30px;">
+            <span mat-line>{{a._id}}      </span>
+            <span mat-line>{{a.name}}      </span>
+            <span mat-line>{{a.price}}    </span>
+            <span mat-line>{{a.type}}  </span>
+        </a>
+    </mat-nav-list>
+</ul>
+
+<nb-card>
+    <nb-card-header>
+      Smart Table
+    </nb-card-header>
+  
+    <nb-card-body>
+      <ng2-smart-table [settings]="settings" [branches]="branches" (deleteConfirm)="onDeleteConfirm($event)">
+      </ng2-smart-table>
+    </nb-card-body>
+</nb-card>
+  

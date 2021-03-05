@@ -5,12 +5,9 @@
       <div class="col-lg-6" id="chat-applicaton">
         <div id="chat-window">
           <div id="output" *ngFor="let data of output">
-            
-              <p>
-                <strong>{{ data.handle }} : </strong>{{ data.message }}
-              </p>
-           
-            
+            <p>
+              <strong>{{ data.handle }} : </strong>{{ data.message }}
+            </p>
           </div>
           <div id="feedback">
             <p>{{ feedback }}</p>
@@ -19,7 +16,7 @@
       </div>
     </div>
   </nb-card-body>
-  
+
   <div class="container">
     <input
       type="text"
@@ -37,7 +34,8 @@
     />
     <div class="buttons-row">
       <button
-        class="button" style="vertical-align:middle"
+        class="button"
+        style="vertical-align: middle"
         type="button"
         id="send"
         style="cursor: pointer"
@@ -48,4 +46,3 @@
     </div>
   </div>
 </nb-card>
-
