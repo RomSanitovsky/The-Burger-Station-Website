@@ -8,9 +8,10 @@ for (let i = 0; i < 100; i += 1) {
   user.email = faker.internet.email();
   user.password = faker.internet.password();
   user.passwordConfirm = user.password;
+  user.username = faker.internet.userName();
   userArray[i] = { ...user };
 }
 
-fs.writeFile(`./imports/Userdata.json`, JSON.stringify(userArray), (err) => {
+fs.writeFileSync(`./Userdata.json`, JSON.stringify(userArray), (err) => {
   if (err) throw err;
 });
