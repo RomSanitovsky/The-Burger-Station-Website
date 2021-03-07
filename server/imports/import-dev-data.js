@@ -64,6 +64,17 @@ const changeUser = async (user) => {
   res2 = res2[0]._id.toString();
   return { ...user, favItem: res1, favBranch: res2 };
 };
+
+const addItemstoBranch = async (branch) => {
+  const res = await Item.aggregate([{ $project: { _id: 1 } }]);
+
+  branch.itemList = [];
+  res.forEach((element) => {
+    branch.itemList.push(element._id.toString());
+  });
+
+  return { ...branch };
+};
 // IMPORT DATA INTO DB
 const importData = async () => {
   let res1;
@@ -72,6 +83,12 @@ const importData = async () => {
   try {
     await Item.create(items);
     // await User.create(users, { validateBeforeSave: false });
+
+    for (let i = 0; i < branches.length; i += 1) {
+      // eslint-disable-next-line prefer-const
+      let result = await addItemstoBranch(branches[i]);
+      branches[i] = { ...result };
+    }
     await Branch.create(branches);
 
     // await modifyUsers(users);

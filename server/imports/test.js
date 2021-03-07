@@ -16,17 +16,6 @@ mongoose
     useFindAndModify: false,
   })
   .then(async () => {
-    const res = await Item.aggregate([
-      { $sample: { size: 1 } },
-      { $project: { _id: 1 } },
-    ]);
-    console.log(res[0]._id);
-
-    const res2 = await Branch.aggregate([
-      { $sample: { size: 1 } },
-      { $project: { _id: 1 } },
-    ]);
-    console.log(res2[0]._id);
-    console.log(res2[0]._id.toString());
-    console.log(mongoose.Types.ObjectId(res2[0]._id.toString()));
+    const res = await Branch.aggregate([{ $project: { _id: 1 } }]);
+    console.log(res);
   });
