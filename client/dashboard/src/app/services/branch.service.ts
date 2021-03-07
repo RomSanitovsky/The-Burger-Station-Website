@@ -19,30 +19,14 @@ export class BranchesService {
     branchDistrict = new BehaviorSubject<string>(JSON.parse(JSON.stringify(localStorage.getItem('BranchDistrict'))));
 
     Branches: Branch[];
-    branchesCount=0;
 
     constructor(private http: HttpClient, private router: Router) {
         this.Branches = [];
     }
 
-    getAllBranches(): Branch[]{
-        this.Branches=[];
-        this.http.get<any>(this.baseUrl).subscribe((data:any)=>{
-            data = data.data.data;
-            data.forEach((element:any) => {
-                this.Branches.push(element);        
-                });
-        });
-    return this.Branches;
+    getAllBranches(){
+        return this.http.get<any>(this.baseUrl);
     }
 
-    getBranchesCount() {
-        this.http.get<any>(this.baseUrl).subscribe((data:any)=>{
-            console.log(data.results);
-            return data.results;
-        });
-     
-    }
-    
 
 }

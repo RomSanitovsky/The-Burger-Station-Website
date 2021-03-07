@@ -1,6 +1,9 @@
-import { Component, OnDestroy } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
-
+import { Branch } from '../../../models/branch';
+import { Item } from '../../../models/item';
+import { BranchesService } from '../../../services/branch.service';
+import { ItemsService } from '../../../services/items.service';
 @Component({
   selector: 'ngx-d3-pie',
   template: `
@@ -12,7 +15,7 @@ import { NbThemeService } from '@nebular/theme';
     </ngx-charts-pie-chart>
   `,
 })
-export class D3PieComponent implements OnDestroy {
+export class D3PieComponent implements OnDestroy,OnInit {
   results = [
     { name: 'Germany', value: 8940 },
     { name: 'USA', value: 5000 },
@@ -23,12 +26,31 @@ export class D3PieComponent implements OnDestroy {
   colorScheme: any;
   themeSubscription: any;
 
-  constructor(private theme: NbThemeService) {
+  branches: Branch[];
+  items: Item[];
+  itemsCount;
+  branchesCount;
+
+  constructor(private theme: NbThemeService, private BranchesService:BranchesService, private ItemsService: ItemsService) {
     this.themeSubscription = this.theme.getJsTheme().subscribe(config => {
       const colors: any = config.variables;
       this.colorScheme = {
         domain: [colors.primaryLight, colors.infoLight, colors.successLight, colors.warningLight, colors.dangerLight],
       };
+    });
+    this.branches = [];
+    this.items = [];
+  }
+
+  ngOnInit(): void {
+    this.BranchesService.getAllBranches().subscribe((data:any)=>{
+      this.branchesCount = data.results;
+      this.branches = data.data.data;
+      console.log(data.data.data[0].address);
+    });
+    this.ItemsService.getAllItems().subscribe((data:any)=>{
+      this.itemsCount = data.results;
+      this.items = data.data.data;
     });
   }
 

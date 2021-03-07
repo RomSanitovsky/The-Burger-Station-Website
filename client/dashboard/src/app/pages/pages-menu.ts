@@ -171,24 +171,24 @@ export const MENU_ITEMS: NbMenuItem[] = [
   //     },
   //   ],
   // },
-  // {
-  //   title: 'Charts',
-  //   icon: 'pie-chart-outline',
-  //   children: [
-  //     {
-  //       title: 'Echarts',
-  //       link: '/pages/charts/echarts',
-  //     },
-  //     {
-  //       title: 'Charts.js',
-  //       link: '/pages/charts/chartjs',
-  //     },
-  //     {
-  //       title: 'D3',
-  //       link: '/pages/charts/d3',
-  //     },
-  //   ],
-  // },
+  {
+    title: 'Charts',
+    icon: 'pie-chart-outline',
+    children: [
+      {
+        title: 'Echarts',
+        link: '/pages/charts/echarts',
+      },
+      {
+        title: 'Charts.js',
+        link: '/pages/charts/chartjs',
+      },
+      {
+        title: 'D3',
+        link: '/pages/charts/d3',
+      },
+    ],
+  },
   // {
   //   title: 'Editors',
   //   icon: 'text-outline',
@@ -227,26 +227,26 @@ export const MENU_ITEMS: NbMenuItem[] = [
   //     },
   //   ],
   // },
-  // {
-  //   title: 'Auth',
-  //   icon: 'lock-outline',
-  //   children: [
-  //     {
-  //       title: 'Login',
-  //       link: '/auth/login',
-  //     },
-  //     {
-  //       title: 'Register',
-  //       link: '/auth/register',
-  //     },
-  //     {
-  //       title: 'Request Password',
-  //       link: '/auth/request-password',
-  //     },
-  //     {
-  //       title: 'Reset Password',
-  //       link: '/auth/reset-password',
-  //     },
-  //   ],
-  // },
+  {
+    title: 'Auth',
+    icon: 'lock-outline',
+    children: [
+      {
+        title: 'Login',
+        link: '/auth/login',
+      },
+      {
+        title: 'Register',
+        link: '/auth/register',
+      },
+      {
+        title: 'Request Password',
+        link: '/auth/request-password',
+      },
+      {
+        title: 'Reset Password',
+        link: '/auth/reset-password',
+      },
+    ],
+  },
 ];

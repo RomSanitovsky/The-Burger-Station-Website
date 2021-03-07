@@ -1,4 +1,6 @@
+import { ThisReceiver } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
+import { AnyARecord } from 'dns';
 import { Branch } from '../../models/branch';
 import { Item } from '../../models/item';
 import { BranchesService } from '../../services/branch.service';
@@ -21,20 +23,19 @@ export class TestingComponent implements OnInit {
   constructor(private BranchesService: BranchesService, private ItemsService: ItemsService) {
     this.branches = [];
     this.items = [];
-    this.getCounts(BranchesService,ItemsService);
   }
 
   ngOnInit(): void {
-    this.branches = this.BranchesService.getAllBranches();
-    this.items = this.ItemsService.getAllItems();
+    this.BranchesService.getAllBranches().subscribe((data:any)=>{
+      this.branchesCount = data.results;
+      this.branches = data.data.data;
+      console.log(data.data.data[0].address);
+    });
+    this.ItemsService.getAllItems().subscribe((data:any)=>{
+      this.itemsCount = data.results;
+      this.items = data.data.data;
+    });
 
-  }
-
-  getCounts( BranchesService: BranchesService, ItemsService: ItemsService) {
-    this.itemsCount = ItemsService.getItemsCount();
-    console.log(this.itemsCount);
-    this.branchesCount = BranchesService.getBranchesCount();
-    console.log(this.branchesCount);
   }
   
 }
