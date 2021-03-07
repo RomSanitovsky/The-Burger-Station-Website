@@ -18,6 +18,7 @@ export class ItemsService {
     itemType = new BehaviorSubject<string>(JSON.parse(JSON.stringify(localStorage.getItem('ItemType'))));
 
     Items: Item[];
+    itemCount=0;
 
     constructor(private http: HttpClient, private router: Router) {
         this.Items = [];
@@ -32,6 +33,14 @@ export class ItemsService {
             });
         });
     return this.Items;
+    }
+
+    getItemsCount() {
+        this.http.get<any>(this.baseUrl).subscribe((data:any)=>{
+            console.log(data.results);
+            return data.results;
+        });
+     
     }
 
 

@@ -15,14 +15,26 @@ export class TestingComponent implements OnInit {
   branches: Branch[];
   items: Item[];
 
-  constructor(private BranchesService: BranchesService, private ItemsService: ItemsService) { 
+  itemsCount;
+  branchesCount;
+
+  constructor(private BranchesService: BranchesService, private ItemsService: ItemsService) {
     this.branches = [];
     this.items = [];
+    this.getCounts(BranchesService,ItemsService);
   }
 
   ngOnInit(): void {
     this.branches = this.BranchesService.getAllBranches();
     this.items = this.ItemsService.getAllItems();
+
   }
 
+  getCounts( BranchesService: BranchesService, ItemsService: ItemsService) {
+    this.itemsCount = ItemsService.getItemsCount();
+    console.log(this.itemsCount);
+    this.branchesCount = BranchesService.getBranchesCount();
+    console.log(this.branchesCount);
+  }
+  
 }
