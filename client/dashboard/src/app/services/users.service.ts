@@ -28,7 +28,7 @@ export class UsersService {
   signIn(user:User) {
     
     const headers=new HttpHeaders({'Content-Type':'application/json'});
-    this.http.post<User>(this.baseUrl+'/sign-in',{
+    this.http.post<User>(this.baseUrl+'/login',{
       userEmail:user.userEmail,
       userPassword:user.userPassword
     }).subscribe((data:any)=>
@@ -57,48 +57,48 @@ export class UsersService {
 
 
 
-  // addUser(user:User) {
+  addUser(user:User) {
     
-  //   const headers=new HttpHeaders({'Content-Type':'application/json'});
-  //   this.http.post<User>(this.baseUrl+'/sign-up/',{
-  //     userEmail:user.userEmail,
-  //     userPassword:user.userPassword,
-  //     userFirstName:user.userFirstName,
-  //     userLastName:user.userLastName,
-  //     userPhoneNumber:user.userPhoneNumber,
-  //     userAddresses:new Array
+    const headers=new HttpHeaders({'Content-Type':'application/json'});
+    this.http.post<User>(this.baseUrl+'/sign-up/',{
+      userEmail:user.userEmail,
+      userPassword:user.userPassword,
+      userFirstName:user.userRole,
+      userLastName:user.FavoriteBranch,
+      userPhoneNumber:user.FavoriteItem,
+      userAddresses:new Array
 
-  //   }).toPromise().then((data:any)=>{
-  //     console.log(data);
-  //     this.signIn(user);
-  //   },(error)=>{
-  //     this.errorMessage=error.error.error;
-  //     this.registerError.next(this.errorMessage);
-  //     console.log(this.errorMessage);
+    }).toPromise().then((data:any)=>{
+      console.log(data);
+      this.signIn(user);
+    },(error)=>{
+      this.errorMessage=error.error.error;
+      this.registerError.next(this.errorMessage);
+      console.log(this.errorMessage);
 
-  //   })
-  // }
+    })
+  }
 
-  // logoutUser(){
-  //   localStorage.removeItem("token");
-  //   localStorage.removeItem("UserName");
-  //   localStorage.removeItem("UserId");
+  logoutUser(){
+    localStorage.removeItem("token");
+    localStorage.removeItem("UserName");
+    localStorage.removeItem("UserId");
 
-  //   this.errorMessage="";
-  //   this.loginError.next(this.errorMessage);
+    this.errorMessage="";
+    this.loginError.next(this.errorMessage);
 
-  // }
+  }
 
-  // loggedIn(){
-  //      return localStorage.getItem('token');
-  // }
-  // getToken(){
-  //   return localStorage.getItem('token');
-  // }
+  loggedIn(){
+       return localStorage.getItem('token');
+  }
+  getToken(){
+    return localStorage.getItem('token');
+  }
 
-  // getUserName(){
-  //   return this.username.toString();
-  // }
+  getUserName(){
+    return this.username.toString();
+  }
 
   // updateEmail(email:string){
   //   console.log(email);

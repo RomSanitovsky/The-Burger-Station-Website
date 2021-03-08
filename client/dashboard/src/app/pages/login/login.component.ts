@@ -19,7 +19,7 @@ export class LoginComponent implements OnInit {
   showCart=false;
   
   @Input() userObj = {
-    userEmail: '', userPassword: '', userRole: 'ADMIN'
+    userEmail: '', userPassword: '', userRole: 'ADMIN', FavoriteItem: '', FavoriteBranch: ''
   };
 
 
@@ -58,12 +58,12 @@ export class LoginComponent implements OnInit {
 
   setUserName() {
 
-    this.currentUser.userName = this.UsersService.getUserName();
+    //this.currentUser.userName = this.UsersService.getUserName();
 
   }
 
   showUserName() {
-    console.log(this.UsersService.getUserName());
+    //console.log(this.UsersService.getUserName());
   }
 
 
