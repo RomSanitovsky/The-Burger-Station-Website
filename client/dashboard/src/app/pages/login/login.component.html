@@ -1,7 +1,7 @@
 <!-- <h1 id="title" class="title">Login</h1>
 <p class="sub-title">Hello! Log in with your email.</p>
 
-<form (ngSubmit)="login()" #form="ngForm" aria-labelledby="title" style =" margin: auto;
+<form #form="ngForm" aria-labelledby="title" style =" margin: auto;
 width: 50%;
 padding: 10px;
 text-align: center;">
@@ -10,16 +10,13 @@ text-align: center;">
     <label class="label" for="input-email">Email address:</label>
     <input nbInput
            fullWidth
-           [(ngModel)]="user.email"
+           [(ngModel)]="userObj.userEmail"
            #email="ngModel"
            name="email"
            id="input-email"
            pattern=".+@.+\..+"
            placeholder="Email address"
-           autofocus
-           [status]="email.dirty ? (email.invalid  ? 'danger' : 'success') : ''"
-           [required]="getConfigValue('forms.validation.email.required')"
-           [attr.aria-invalid]="email.invalid && email.touched ? true : null">
+           autofocus>
     <ng-container *ngIf="email.invalid && email.touched">
       <p class="error-message" *ngIf="email.errors?.required">
         Email is required!
@@ -34,17 +31,12 @@ text-align: center;">
     <label class="label" for="input-password">Password:</label>
     <input nbInput
            fullWidth
-           [(ngModel)]="user.password"
+           [(ngModel)]="userObj.userPassword"
            #password="ngModel"
            name="password"
            type="password"
            id="input-password"
-           placeholder="Password"
-           [status]="password.dirty ? (password.invalid  ? 'danger' : 'success') : ''"
-           [required]="getConfigValue('forms.validation.password.required')"
-           [minlength]="getConfigValue('forms.validation.password.minLength')"
-           [maxlength]="getConfigValue('forms.validation.password.maxLength')"
-           [attr.aria-invalid]="password.invalid && password.touched ? true : null">
+           placeholder="Password">
     <ng-container *ngIf="password.invalid && password.touched ">
       <p class="error-message" *ngIf="password.errors?.required">
         Password is required!
@@ -58,34 +50,36 @@ text-align: center;">
     </ng-container>
   </div>
 
-  <div class="form-control-group accept-group">
-    <nb-checkbox name="rememberMe" [(ngModel)]="user.rememberMe" *ngIf="rememberMe">Remember me</nb-checkbox>
-    <a class="forgot-password" routerLink="../request-password">Forgot Password?</a>
-  </div>
-
   <button nbButton
+          (click)=signIn()
           fullWidth
           status="success"
           [disabled]="submitted || !form.valid"
           [class.btn-pulse]="submitted">
     Log In
   </button>
-</form>
+</form> -->
 
-<section *ngIf="socialLinks && socialLinks.length > 0" class="links" aria-label="Social sign in">
-  or enter with:
-  <div class="socials">
-    <ng-container *ngFor="let socialLink of socialLinks">
-      <a *ngIf="socialLink.link"
-         [routerLink]="socialLink.link"
-         [attr.target]="socialLink.target"
-         [attr.class]="socialLink.icon"
-         [class.with-icon]="socialLink.icon">{{ socialLink.title }}</a>
-      <a *ngIf="socialLink.url"
-         [attr.href]="socialLink.url"
-         [attr.target]="socialLink.target"
-         [attr.class]="socialLink.icon"
-         [class.with-icon]="socialLink.icon">{{ socialLink.title }}</a>
-    </ng-container>
+
+<div class="container" style="max-width: 500px;">
+  <h3 class="mb-3 mt-5 text-center">Login</h3>
+
+  <div class="form-group">
+    <input type="text" [(ngModel)]="userObj.userEmail" class="form-control" placeholder="Email">
+
   </div>
-</section> -->
+  <div class="form-group">
+      <input type="password" [(ngModel)]="userObj.userPassword" class="form-control" placeholder="Password">
+    </div>
+    <div>
+      <div class="error">
+        {{errorMessage}}
+    </div>
+
+  <div style="text-align: center;" >
+    <button class="button"
+    style="vertical-align: middle"
+    type="button"
+    id="send"
+    style="cursor: pointer" (click)="signIn()">Enter</button>
+  </div>

@@ -17,6 +17,10 @@ export class ItemsService {
     itemPrice = new BehaviorSubject<string>(JSON.parse(JSON.stringify(localStorage.getItem('ItemPrice'))));
     itemType = new BehaviorSubject<string>(JSON.parse(JSON.stringify(localStorage.getItem('ItemType'))));
 
+    itemsCount: any;
+
+    itemsNumber = new BehaviorSubject<any>(localStorage.getItem('ItemsNumber'));
+  
     Items: Item[];
 
     constructor(private http: HttpClient, private router: Router) {

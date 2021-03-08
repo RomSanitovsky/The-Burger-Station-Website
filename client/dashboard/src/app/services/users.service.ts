@@ -4,6 +4,8 @@ import { BehaviorSubject, Observable, Subject } from 'rxjs';
 import {User} from '../models/user';
 
 import {Router} from '@angular/router'
+import { getAttrsForDirectiveMatching } from '@angular/compiler/src/render3/view/util';
+import { TemperatureHumidityService } from '../@core/mock/temperature-humidity.service';
 @Injectable({
   providedIn: 'root'
 })
@@ -25,26 +27,26 @@ export class UsersService {
 
   baseUrl= 'http://localHost:8000/api/users';
 
-  signIn(user:User) {
+  signIn(email:String, password:String) {
     
     const headers=new HttpHeaders({'Content-Type':'application/json'});
     this.http.post<User>(this.baseUrl+'/login',{
-      userEmail:user.userEmail,
-      userPassword:user.userPassword
+      //userRole:'admin',
+      email:email,
+      password:password,
     }).subscribe((data:any)=>
     {
       console.log(data);
-      console.log(data.information._id);
-      console.log(data.information.userName);
-      this.username.next(data.information.userName);
-      this.userId.next(data.information._id);
-      this.userPassword=user.userPassword;
+      // console.log(data.information._id);
+      // console.log(data.information.userName);
+      // this.username.next(data.information.userName);
+      // this.userId.next(data.information._id);
+      // this.userPassword=user.userPassword;
       localStorage.setItem('token',data.token);
-      localStorage.setItem('UserName',data.information.userName);
-      localStorage.setItem('UserId',data.information._id);
+      this.router.navigate(['/pages/dashboard']);
     },(error)=>{
       console.log(error);
-      this.errorMessage=error.error.error;
+      this.errorMessage=error.error.message;
       this.loginError.next(this.errorMessage);
       console.log(this.errorMessage);
 
@@ -53,39 +55,44 @@ export class UsersService {
     
   }
   
-  
-
-
-
-  addUser(user:User) {
-    
+  getAllUsers(){
     const headers=new HttpHeaders({'Content-Type':'application/json'});
-    this.http.post<User>(this.baseUrl+'/sign-up/',{
-      userEmail:user.userEmail,
-      userPassword:user.userPassword,
-      userFirstName:user.userRole,
-      userLastName:user.FavoriteBranch,
-      userPhoneNumber:user.FavoriteItem,
-      userAddresses:new Array
+    return this.http.get<any>(this.baseUrl, {
+      headers: {Authorization: `Bearer ${localStorage.getItem("token")}`}
+    });
 
-    }).toPromise().then((data:any)=>{
-      console.log(data);
-      this.signIn(user);
-    },(error)=>{
-      this.errorMessage=error.error.error;
-      this.registerError.next(this.errorMessage);
-      console.log(this.errorMessage);
-
-    })
   }
+
+
+
+  // addUser(user:User) {
+    
+  //   const headers=new HttpHeaders({'Content-Type':'application/json'});
+  //   this.http.post<User>(this.baseUrl+'/sign-up/',{
+  //     userEmail:user.userEmail,
+  //     userPassword:user.userPassword,
+  //     userFirstName:user.userRole,
+  //     userLastName:user.FavoriteBranch,
+  //     userPhoneNumber:user.FavoriteItem,
+  //     userAddresses:new Array
+
+  //   }).toPromise().then((data:any)=>{
+  //     console.log(data);
+  //     this.signIn(user);
+  //   },(error)=>{
+  //     this.errorMessage=error.error.error;
+  //     this.registerError.next(this.errorMessage);
+  //     console.log(this.errorMessage);
+
+  //   })
+  // }
 
   logoutUser(){
     localStorage.removeItem("token");
-    localStorage.removeItem("UserName");
-    localStorage.removeItem("UserId");
-
+   
     this.errorMessage="";
     this.loginError.next(this.errorMessage);
+    this.router.navigate(['/auth/login']);
 
   }
 

@@ -10,6 +10,22 @@
 <nb-select [selected]="currentTheme" (selectedChange)="changeTheme($event)" status="primary">
   <nb-option *ngFor="let theme of themes" [value]="theme.value"> {{ theme.name }}</nb-option>
 </nb-select>
+
+<button
+class="button"
+style="vertical-align: middle"
+type="button"
+id="send"
+style="cursor: pointer"
+(click)="logout()"
+>
+Logout
+</button>
+
+<!-- <div class="form-group">
+  <button mat-raised-button (click)="signIn()">logout</button>
+</div> -->
+
 <!-- <div class="header-container">
   <nb-actions size="small">
 

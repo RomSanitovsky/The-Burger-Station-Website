@@ -20,12 +20,17 @@ export class BranchesService {
 
     Branches: Branch[];
 
+    branchesCount: any;
+
+    branchNumber = new BehaviorSubject<any>(localStorage.getItem('BranchNumber'));
+
     constructor(private http: HttpClient, private router: Router) {
         this.Branches = [];
     }
 
-    getAllBranches(){
+    getAllBranches() {
         return this.http.get<any>(this.baseUrl);
+        
     }
 
 

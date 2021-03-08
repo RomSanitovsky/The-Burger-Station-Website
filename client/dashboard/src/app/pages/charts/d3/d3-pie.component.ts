@@ -1,5 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
+import { BehaviorSubject } from 'rxjs';
 import { Branch } from '../../../models/branch';
 import { Item } from '../../../models/item';
 import { BranchesService } from '../../../services/branch.service';
@@ -16,11 +17,17 @@ import { ItemsService } from '../../../services/items.service';
   `,
 })
 export class D3PieComponent implements OnDestroy,OnInit {
-  results = [
-    { name: 'Germany', value: 8940 },
-    { name: 'USA', value: 5000 },
-    { name: 'France', value: 7200 },
-  ];
+  
+  itemsCount: any;
+  branchesCount: any;
+  
+  branchNumber = Number(localStorage.getItem('BranchNumber'));
+
+  itemsNumber = Number(localStorage.getItem('ItemsNumber'));
+  
+
+  results = [];
+
   showLegend = true;
   showLabels = true;
   colorScheme: any;
@@ -28,31 +35,43 @@ export class D3PieComponent implements OnDestroy,OnInit {
 
   branches: Branch[];
   items: Item[];
-  itemsCount;
-  branchesCount;
+  
 
   constructor(private theme: NbThemeService, private BranchesService:BranchesService, private ItemsService: ItemsService) {
+    
     this.themeSubscription = this.theme.getJsTheme().subscribe(config => {
       const colors: any = config.variables;
       this.colorScheme = {
         domain: [colors.primaryLight, colors.infoLight, colors.successLight, colors.warningLight, colors.dangerLight],
       };
     });
+
     this.branches = [];
     this.items = [];
   }
 
   ngOnInit(): void {
-    this.BranchesService.getAllBranches().subscribe((data:any)=>{
+    
+    this.results.push({name:'Branches', value:this.branchNumber});
+    this.results.push({name:'Items', value:this.itemsNumber});
+ 
+    this.BranchesService.getAllBranches().subscribe((data: any) => {
       this.branchesCount = data.results;
       this.branches = data.data.data;
-      console.log(data.data.data[0].address);
-    });
-    this.ItemsService.getAllItems().subscribe((data:any)=>{
-      this.itemsCount = data.results;
-      this.items = data.data.data;
-    });
+      localStorage.removeItem('BranchNumber');
+      localStorage.setItem('BranchNumber',data.results);
+      console.log(data.results);
+  });
+
+    this.ItemsService.getAllItems().subscribe((data: any) => {
+            this.itemsCount = data.results;
+            this.items = data.data.data;
+            localStorage.removeItem('ItemNumber');
+            localStorage.setItem('ItemsNumber',data.results);
+            console.log(data.results);
+        });
   }
+
 
   ngOnDestroy(): void {
     this.themeSubscription.unsubscribe();

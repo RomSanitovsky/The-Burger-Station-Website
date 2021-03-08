@@ -3,8 +3,10 @@ import { Component, OnInit } from '@angular/core';
 import { AnyARecord } from 'dns';
 import { Branch } from '../../models/branch';
 import { Item } from '../../models/item';
+import { User } from '../../models/user';
 import { BranchesService } from '../../services/branch.service';
 import { ItemsService } from '../../services/items.service';
+import { UsersService } from '../../services/users.service';
 
 
 @Component({
@@ -16,13 +18,17 @@ export class TestingComponent implements OnInit {
 
   branches: Branch[];
   items: Item[];
+  users: User[];
 
   itemsCount;
   branchesCount;
+  usersCount;
 
-  constructor(private BranchesService: BranchesService, private ItemsService: ItemsService) {
+
+  constructor(private BranchesService: BranchesService, private ItemsService: ItemsService, private UsersService: UsersService) {
     this.branches = [];
     this.items = [];
+    this.users = [];
   }
 
   ngOnInit(): void {
@@ -35,6 +41,12 @@ export class TestingComponent implements OnInit {
       this.itemsCount = data.results;
       this.items = data.data.data;
     });
+    this.UsersService.getAllUsers().subscribe((data:any)=>{
+      this.usersCount = data.results;
+      this.users = data.data.data;
+      console.log(data);
+    });
+
 
   }
   

@@ -2,6 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { UsersService } from '../../services/users.service'
 
 import {emailValidation, passwordValidation} from '../../../config/validation/form.validation';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -10,7 +11,7 @@ import {emailValidation, passwordValidation} from '../../../config/validation/fo
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private UsersService: UsersService) {
+  constructor(private UsersService: UsersService, private router:Router) {
 
   }
 
@@ -19,12 +20,14 @@ export class LoginComponent implements OnInit {
   showCart=false;
   
   @Input() userObj = {
-    userEmail: '', userPassword: '', userRole: 'ADMIN', FavoriteItem: '', FavoriteBranch: ''
+    userEmail: '', userPassword: ''
   };
 
 
   ngOnInit(): void {
-    
+    if (this.UsersService.loggedIn()){
+      this.router.navigate(['pages/dashboard']);
+    }
     this.UsersService.username.subscribe(user=>{
       this.currentUser.userName=user;
     })
@@ -45,8 +48,8 @@ export class LoginComponent implements OnInit {
       this.errorMessage=passwordV.message;
       return;
     }
-    this.UsersService.signIn(this.userObj);
-    this.setUserName();
+    this.UsersService.signIn(this.userObj.userEmail,this.userObj.userPassword);
+    //this.setUserName();
   }
 
   logoutUser() {
