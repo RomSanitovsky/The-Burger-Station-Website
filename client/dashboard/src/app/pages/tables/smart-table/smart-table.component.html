@@ -1,10 +1,10 @@
 <nb-card>
   <nb-card-header>
-    Smart Table
+     Admins
   </nb-card-header>
 
   <nb-card-body>
-    <ng2-smart-table [settings]="settings" [source]="source" (deleteConfirm)="onDeleteConfirm($event)" (custom)="onCustom($event)">
+    <ng2-smart-table [settings]="settings" [source]="filteredData" (deleteConfirm)="onDeleteConfirm($event)" (custom)="onCustom($event)">
     </ng2-smart-table>
   </nb-card-body>
 </nb-card>

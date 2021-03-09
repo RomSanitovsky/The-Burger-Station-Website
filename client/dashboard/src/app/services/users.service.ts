@@ -1,11 +1,10 @@
 import { Injectable } from '@angular/core';
 import {HttpClient,HttpHeaders} from '@angular/common/http';
-import { BehaviorSubject, Observable, Subject } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
 import {User} from '../models/user';
 
 import {Router} from '@angular/router'
-import { getAttrsForDirectiveMatching } from '@angular/compiler/src/render3/view/util';
-import { TemperatureHumidityService } from '../@core/mock/temperature-humidity.service';
+
 @Injectable({
   providedIn: 'root'
 })
@@ -20,7 +19,6 @@ export class UsersService {
   userOrders:any[];
   userPassword:String="";
   currentUser!: User;
-  //private usersRegisterUrl=environment.usersRegisterUrl;
   constructor(private http :HttpClient, private router:Router) {
     this.userOrders=[];
    }
@@ -31,17 +29,11 @@ export class UsersService {
     
     const headers=new HttpHeaders({'Content-Type':'application/json'});
     this.http.post<User>(this.baseUrl+'/login',{
-      //userRole:'admin',
       email:email,
       password:password,
     }).subscribe((data:any)=>
     {
       console.log(data);
-      // console.log(data.information._id);
-      // console.log(data.information.userName);
-      // this.username.next(data.information.userName);
-      // this.userId.next(data.information._id);
-      // this.userPassword=user.userPassword;
       localStorage.setItem('token',data.token);
       this.router.navigate(['/pages/dashboard']);
     },(error)=>{
@@ -63,29 +55,12 @@ export class UsersService {
 
   }
 
+  deleteUser(User) {
+    return this.http.delete(this.baseUrl + '/' + User._id,  {
+      headers: {Authorization: `Bearer ${localStorage.getItem("token")}`}
+    })
+  }
 
-
-  // addUser(user:User) {
-    
-  //   const headers=new HttpHeaders({'Content-Type':'application/json'});
-  //   this.http.post<User>(this.baseUrl+'/sign-up/',{
-  //     userEmail:user.userEmail,
-  //     userPassword:user.userPassword,
-  //     userFirstName:user.userRole,
-  //     userLastName:user.FavoriteBranch,
-  //     userPhoneNumber:user.FavoriteItem,
-  //     userAddresses:new Array
-
-  //   }).toPromise().then((data:any)=>{
-  //     console.log(data);
-  //     this.signIn(user);
-  //   },(error)=>{
-  //     this.errorMessage=error.error.error;
-  //     this.registerError.next(this.errorMessage);
-  //     console.log(this.errorMessage);
-
-  //   })
-  // }
 
   logoutUser(){
     localStorage.removeItem("token");
@@ -106,46 +81,5 @@ export class UsersService {
   getUserName(){
     return this.username.toString();
   }
-
-  // updateEmail(email:string){
-  //   console.log(email);
-  //   this.http.patch(this.baseUrl+'/specific/'+JSON.parse(JSON.stringify(localStorage.getItem('UserId'))),{
-  //     userEmail:email,
-  //   }).subscribe((data:any)=>{
-  //     console.log(data);
-  //     this.logoutUser();
-  //     this.router.navigate(['/home']);
-  //   },(error)=>{
-  //     this.errorMessage=error.error.error;
-  //     console.log(error);
-      
-  //   });
-  // }
-  // updateName(userFirstName: string, userLastName: string) {
-  //   this.http.patch(this.baseUrl+'/specific/'+JSON.parse(JSON.stringify(localStorage.getItem('UserId'))),{
-  //     userFirstName:userFirstName,
-  //     userLastName:userLastName
-  //   }).subscribe((data:any)=>{
-  //     console.log(data);
-  //     this.logoutUser();
-  //     this.router.navigate(['/home']);
-  //   },(error)=>{
-  //     this.errorMessage=error.error.error;
-  //     console.log(error);
-      
-  //   });
-  // }
-  // updatePassword(userPassword: string) {
-  //   this.http.patch(this.baseUrl+'/specific/'+JSON.parse(JSON.stringify(localStorage.getItem('UserId'))),{
-  //     userPassword:userPassword
-  //   }).subscribe((data:any)=>{
-  //     console.log(data);
-  //     this.logoutUser();
-  //     this.router.navigate(['/home']);
-  //   },(error)=>{
-  //     console.log(error);
-      
-  //   });
-  // }
 
 }

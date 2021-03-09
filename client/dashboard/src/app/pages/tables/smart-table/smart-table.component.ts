@@ -1,11 +1,11 @@
-import { ThisReceiver } from '@angular/compiler';
-import { Component, OnInit } from '@angular/core';
-import { LocalDataSource } from 'ng2-smart-table';
+import {ThisReceiver} from '@angular/compiler';
+import {Component, OnInit} from '@angular/core';
+import {LocalDataSource} from 'ng2-smart-table';
 
-import { SmartTableData } from '../../../@core/data/smart-table';
-import { UsersService } from '../../../services/users.service';
-import { FormLayoutsComponent } from '../../forms/form-layouts/form-layouts.component';
-
+import {SmartTableData} from '../../../@core/data/smart-table';
+import {UsersService} from '../../../services/users.service';
+import {FormLayoutsComponent} from '../../forms/form-layouts/form-layouts.component';
+import Swal from 'sweetalert2';
 @Component({
   selector: 'ngx-smart-table',
   templateUrl: './smart-table.component.html',
@@ -15,29 +15,15 @@ export class SmartTableComponent implements OnInit {
 
   settings = {
     actions: {
-      custom: [
-        {
-          name: 'yourAction',
-          title: '<i class="" title="YourAction" ></i>'
-        }
-      ],
-    },
-    add: {
-      addButtonContent: '<i class="nb-plus"></i>',
-      createButtonContent: '<i class="nb-checkmark"></i>',
-      cancelButtonContent: '<i class="nb-close"></i>',
-    },
-    edit: {
-      editButtonContent: '<i class="nb-edit"></i>',
-      saveButtonContent: '<i class="nb-checkmark"></i>',
-      cancelButtonContent: '<i class="nb-close"></i>',
+      add: false,
+      edit: false,
     },
     delete: {
-      deleteButtonContent: '<i class="nb-trash"></i>',
+      deleteButtonContent: '<i class="nb-trash" style="color: red!important;"></i>',
       confirmDelete: true,
     },
     columns: {
-      id: {
+      _id: {
         title: 'ID',
         type: 'number',
       },
@@ -49,7 +35,7 @@ export class SmartTableComponent implements OnInit {
         title: 'E-mail',
         type: 'string',
       },
-     
+
     },
   };
 
@@ -62,23 +48,23 @@ export class SmartTableComponent implements OnInit {
     email: ""
   },]
 
-  filteredData:Array<any>;
+  filteredData: Array<any>;
 
   constructor(private service: SmartTableData, private UsersService: UsersService) {
-    this.filteredData=new Array<any>();
+    this.filteredData = new Array<any>();
   }
 
   ngOnInit(): void {
-    
+
     this.updateTable();
-    
+
   }
 
   updateTable() {
 
-    this.UsersService.getAllUsers().subscribe((data:any)=>{
+    this.UsersService.getAllUsers().subscribe((data: any) => {
       this.filteredData = data.data.data;
-      this.updateUsers();
+      // this.updateUsers();
     });
   }
 
@@ -87,19 +73,19 @@ export class SmartTableComponent implements OnInit {
     console.log(this.filteredData);
     this.filteredData.forEach(element => {
       this.table.push({
-              id: element._id,
-              name: '',
-              username: element.username,
-              email: element.email
-            });
+        id: element._id,
+        name: '',
+        username: element.username,
+        email: element.email
+      });
     });
     this.source.load(this.table);
   }
 
-  onEdit(){
+  onEdit() {
     console.log('clicked');
   }
-  
+
   onCustom(event) {
     alert(`Custom event '${event.action}' fired on row №: ${event.data.id}`);
     console.log('clicked');
@@ -107,10 +93,27 @@ export class SmartTableComponent implements OnInit {
 
   onDeleteConfirm(event): void {
     if (window.confirm('Are you sure you want to delete?')) {
-      event.confirm.resolve();
+      // event.confirm.resolve();
+      this.deleteAdmin(event.data);
+
     } else {
       event.confirm.reject();
     }
+  }
+
+  deleteAdmin(data: any) {
+    this.UsersService.deleteUser(data).subscribe(data => {
+      Swal.fire({
+        title: 'success',
+        icon: "success"
+      })
+      this.updateTable();
+    }, error1 => {
+      Swal.fire({
+        title: 'error',
+        icon: "error"
+      })
+    })
   }
 }
 

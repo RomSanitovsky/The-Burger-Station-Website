@@ -4,6 +4,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { TablesComponent } from './tables.component';
 import { SmartTableComponent } from './smart-table/smart-table.component';
 import { TreeGridComponent } from './tree-grid/tree-grid.component';
+import {TableItemsComponent} from "./table-items/table-items.component";
+import {BranchesComponent} from "./branches/branches.component";
 
 const routes: Routes = [{
   path: '',
@@ -12,6 +14,14 @@ const routes: Routes = [{
     {
       path: 'smart-table',
       component: SmartTableComponent,
+    },
+    {
+      path: 'table-items',
+      component: TableItemsComponent,
+    },
+    {
+      path: 'table-branches',
+      component: BranchesComponent,
     },
     {
       path: 'tree-grid',

@@ -4,9 +4,6 @@ const authController = require('../controllers/authController');
 
 const router = express.Router();
 
-
-
-
 router
   .route('/')
   .get(branchController.getAllBranches)
@@ -15,6 +12,8 @@ router
     authController.restrictTo('admin'),
     branchController.createBranch
   );
+
+router.route('/branchByDistricts/').get(branchController.getBranchByDistrict);
 
 router
   .route('/:id')

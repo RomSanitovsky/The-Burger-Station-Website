@@ -33,5 +33,9 @@ export class BranchesService {
         
     }
 
+    groupByItems() {
+        return this.http.get('http://localhost:8000/api/branches/branchByDistricts');
+      }
+    
 
 }

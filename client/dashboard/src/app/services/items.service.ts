@@ -31,6 +31,10 @@ export class ItemsService {
         return this.http.get<any>(this.baseUrl);
     }
 
+
+    groupByItems() {
+      return this.http.get('http://localhost:8000/api/items/itemtypecounts');
+    }
   
 
 

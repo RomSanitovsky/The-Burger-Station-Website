@@ -8,12 +8,17 @@ import { ItemsService } from '../../../services/items.service';
 @Component({
   selector: 'ngx-d3-pie',
   template: `
+  <nb-card class="list-card" size="large">
+  <nb-card-header>Items-Type Chart</nb-card-header>
+  
     <ngx-charts-pie-chart
       [scheme]="colorScheme"
       [results]="results"
       [legend]="showLegend"
       [labels]="showLabels">
     </ngx-charts-pie-chart>
+    
+    </nb-card>
   `,
 })
 export class D3PieComponent implements OnDestroy,OnInit {
@@ -52,24 +57,32 @@ export class D3PieComponent implements OnDestroy,OnInit {
 
   ngOnInit(): void {
     
-    this.results.push({name:'Branches', value:this.branchNumber});
-    this.results.push({name:'Items', value:this.itemsNumber});
- 
-    this.BranchesService.getAllBranches().subscribe((data: any) => {
-      this.branchesCount = data.results;
-      this.branches = data.data.data;
-      localStorage.removeItem('BranchNumber');
-      localStorage.setItem('BranchNumber',data.results);
-      console.log(data.results);
-  });
+    this.results.push({name:'Food', value:this.branchNumber});
+    this.results.push({name:'Drink', value:this.itemsNumber});
 
-    this.ItemsService.getAllItems().subscribe((data: any) => {
-            this.itemsCount = data.results;
-            this.items = data.data.data;
-            localStorage.removeItem('ItemNumber');
-            localStorage.setItem('ItemsNumber',data.results);
-            console.log(data.results);
-        });
+    this.ItemsService.groupByItems().subscribe((data:any) => {
+      console.log(data.data.results);
+      let drinkCount = 0;
+      let foodCount = 0;
+      if (data.data.results[1]._id === 'drink') {
+       drinkCount = data.data.results[1].total
+        foodCount = data.data.results[0].total
+      } else {
+        drinkCount = data.data.results[0].total
+        foodCount = data.data.results[1].total
+      }
+      localStorage.removeItem('BranchNumber');
+      localStorage.setItem('BranchNumber',
+        foodCount.toString()
+      );
+      localStorage.removeItem('ItemNumber');
+      localStorage.setItem('ItemsNumber',
+        drinkCount.toString()      
+      );
+    }, error1 => {
+
+    });
+
   }
 
 
