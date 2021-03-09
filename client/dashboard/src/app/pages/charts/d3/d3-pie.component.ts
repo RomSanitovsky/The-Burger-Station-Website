@@ -21,15 +21,12 @@ import { ItemsService } from '../../../services/items.service';
     </nb-card>
   `,
 })
-export class D3PieComponent implements OnDestroy,OnInit {
-  
-  itemsCount: any;
-  branchesCount: any;
-  
-  branchNumber = Number(localStorage.getItem('BranchNumber'));
+export class D3PieComponent implements OnDestroy, OnInit {
 
-  itemsNumber = Number(localStorage.getItem('ItemsNumber'));
-  
+  foodCount = Number(localStorage.getItem('FoodCount'));
+
+  drinkCount = Number(localStorage.getItem('DrinkCount'));
+
 
   results = [];
 
@@ -40,10 +37,10 @@ export class D3PieComponent implements OnDestroy,OnInit {
 
   branches: Branch[];
   items: Item[];
-  
 
-  constructor(private theme: NbThemeService, private BranchesService:BranchesService, private ItemsService: ItemsService) {
-    
+
+  constructor(private theme: NbThemeService, private BranchesService: BranchesService, private ItemsService: ItemsService) {
+
     this.themeSubscription = this.theme.getJsTheme().subscribe(config => {
       const colors: any = config.variables;
       this.colorScheme = {
@@ -56,28 +53,28 @@ export class D3PieComponent implements OnDestroy,OnInit {
   }
 
   ngOnInit(): void {
-    
-    this.results.push({name:'Food', value:this.branchNumber});
-    this.results.push({name:'Drink', value:this.itemsNumber});
 
-    this.ItemsService.groupByItems().subscribe((data:any) => {
+    this.results.push({ name: 'Food', value: this.foodCount });
+    this.results.push({ name: 'Drink', value: this.drinkCount });
+
+    this.ItemsService.groupByItems().subscribe((data: any) => {
       console.log(data.data.results);
       let drinkCount = 0;
       let foodCount = 0;
       if (data.data.results[1]._id === 'drink') {
-       drinkCount = data.data.results[1].total
+        drinkCount = data.data.results[1].total
         foodCount = data.data.results[0].total
       } else {
         drinkCount = data.data.results[0].total
         foodCount = data.data.results[1].total
       }
-      localStorage.removeItem('BranchNumber');
-      localStorage.setItem('BranchNumber',
+      localStorage.removeItem('FoodCount');
+      localStorage.setItem('FoodCount',
         foodCount.toString()
       );
-      localStorage.removeItem('ItemNumber');
-      localStorage.setItem('ItemsNumber',
-        drinkCount.toString()      
+      localStorage.removeItem('DrinkCount');
+      localStorage.setItem('DrinkCount',
+        drinkCount.toString()
       );
     }, error1 => {
 

@@ -1,11 +1,11 @@
-<div class="calendars">
-  <div class="calendar-container">
+<div class="calendars" style="text-align: center; margin: auto;">
+  <div class="calendar-container" style="text-align: center; margin: auto;">
     <span class="subtitle">
       Selected date: {{ date | date }}
     </span>
     <nb-calendar [(date)]="date" [boundingMonth]="true" showWeekNumber></nb-calendar>
   </div>
-  <div class="calendar-container">
+  <!-- <div class="calendar-container">
     <span class="subtitle">
       Selected range: {{ range.start | date }} - {{ range.end | date }}
     </span>
@@ -19,5 +19,5 @@
       [(date)]="date2"
       [dayCellComponent]="dayCellComponent"
     ></nb-calendar>
-  </div>
+  </div> -->
 </div>

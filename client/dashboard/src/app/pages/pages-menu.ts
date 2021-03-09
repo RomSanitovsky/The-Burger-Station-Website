@@ -12,11 +12,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
   //   icon: 'shopping-cart-outline',
   //   link: '/pages/iot-dashboard',
   // },
-  {
-    title: 'Testing',
-    icon: 'shopping-cart-outline',
-    link: '/pages/testing',
-  },
+  // {
+  //   title: 'Testing',
+  //   icon: 'shopping-cart-outline',
+  //   link: '/pages/testing',
+  // },
   // {
   //   title: 'FEATURES',
   //   group: true,
