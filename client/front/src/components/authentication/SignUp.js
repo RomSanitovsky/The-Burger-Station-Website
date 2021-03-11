@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { useState, useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
 import axios from "axios";
+import Swal from 'sweetalert2';
 
 function SignUp() {
   const history = useHistory();
@@ -20,12 +21,12 @@ function SignUp() {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    if (
-      (user.username && user.username.length < 1) ||
-      (user.email && user.email.length < 1) ||
-      (user.password && user.password.length < 1)
-    )
-      return alert("all fields are required");
+    if (user.username == null || user.email == null || user.password == null)
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Enter correct Email and at least 8 digit Password!',
+    })
 
     // const newUser = {
 

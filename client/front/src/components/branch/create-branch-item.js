@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { useCookies } from "react-cookie";
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
+import Swal from 'sweetalert2';
 
 export default function CreateBranchItem() {
   const [data, setData] = useState({});
@@ -25,7 +26,11 @@ export default function CreateBranchItem() {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (data.name == null || data.address == null || data.district == null)
-      return alert("all fields are required");
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Please fill all fields!',
+      })
     axios
       .post("http://localhost:8000/api/branches", data, {
         headers: {

@@ -3,6 +3,7 @@ import { Link, Redirect, useHistory } from "react-router-dom";
 import axios from "axios";
 import create from "zustand";
 import { useCookies } from "react-cookie";
+import Swal from 'sweetalert2';
 
 export const useStore = create((set) => ({
   userData: {},
@@ -26,6 +27,12 @@ export const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (data.email == null || data.password == null)
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Enter correct Email and at least 8 digit Password!',
+    })
     axios.post("http://localhost:8000/Api/users/login", data).then((res) => {
       setCookie("user", res.data, { path: "/" });
       setUserData(res.data.data.user);
@@ -79,7 +86,7 @@ export const Login = () => {
 
             <div className="php-email-form text-center">
               <button type="submit" className="col-lg-6 col-md-6">
-                Sign-Up
+                Sign In
               </button>
             </div>
             <p></p>

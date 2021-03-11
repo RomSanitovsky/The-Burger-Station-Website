@@ -2,6 +2,7 @@ import axios from "axios";
 import { Link, useHistory } from "react-router-dom";
 import { useState } from "react";
 import { useCookies } from "react-cookie";
+import Swal from 'sweetalert2';
 
 export default function CreateMenuItem() {
   const history = useHistory();
@@ -17,7 +18,11 @@ export default function CreateMenuItem() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     if (data.name == null || data.price == null || data.type == null)
-      return alert("all fields are required");
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Please fill all fields!',
+    })
 
     await axios
       .post("http://localhost:8000/api/items", data, {
