@@ -1,58 +1,54 @@
+import React, { Component } from "react";
+import { useState, useEffect } from "react";
+import { Link, useHistory } from "react-router-dom";
 import axios from "axios";
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import { useCookies } from "react-cookie";
-import { useHistory } from "react-router-dom";
-export default function EditUser() {
-  const [cookies] = useCookies(["user"]);
+
+function SignUp() {
   const history = useHistory();
-
-  const { id } = useParams();
-  console.log("id", id);
-  console.log("token", cookies.user.token);
-  const [userData, setUserData] = useState({});
-  const [data, setData] = useState({});
-  useEffect(() => {
-    console.log("as");
-    axios
-      .get(`http://localhost:8000/api/users/me/${id}`, {
-        headers: {
-          Authorization: "Bearer " + cookies.user.token, //the token is a variable which holds the token
-        },
-      })
-      .then((res) => setUserData(res.data.data.data));
-  }, []);
-
-  // console.log("userData", userData);
+  // const [username, setUsername] = useState();
+  // const [email, setEmail] = useState();
+  // const [password, setPassword] = useState();
+  // const [passwordConfirm, setPasswordConfirm] = useState();
+  // const [favItem, setFavItem] = useState();
+  // const [favBranch, setFavBranch] = useState();
+  const [user, setUser] = useState({});
   const handleChange = (e) => {
     let name = e.target.name;
     let value = e.target.value;
-    setData({ ...data, [name]: value });
+    setUser({ ...user, [name]: value });
   };
-  const handleSubmit = (e) => {
-    console.log("data", data);
-    e.preventDefault();
+  const handleSubmit = async (event) => {
+    event.preventDefault();
 
-    axios.patch(`http://localhost:8000/api/users/updateMe/${id}`, data, {
-      headers: {
-        Authorization: "Bearer " + cookies.user.token, //the token is a variable which holds the token
-      },
-    });
-    history.push("/home");
+    if (
+      (user.username && user.username.length < 1) ||
+      (user.email && user.email.length < 1) ||
+      (user.password && user.password.length < 1)
+    )
+      return alert("all fields are required");
+
+    // const newUser = {
+
+    //   username,
+    //   email,
+    //   password,
+    //   passwordConfirm,
+    //   favItem,
+    //   favBranch,
+    // };
+    console.log("new", user);
+    await axios
+      .post("http://localhost:8000/api/users/signup", user)
+
+      .then((res) => console.log(res));
+    history.push("/");
   };
-  const [branches, setBranches] = useState([]);
 
-  useEffect(async () => {
-    if (branches.length < 1) {
-      const response = await fetch("http://localhost:8000/api/branches");
-      const data = await response.json();
-      setBranches(data.data.data);
-      // console.log(branches);
-    } else {
-      console.log("else");
-      console.log(branches);
-    }
-  }, [branches]);
+  const [fullName, setFullName] = useState({
+    fName: "",
+    lName: "",
+  });
+
   const [items, setItems] = useState([]);
 
   useEffect(async () => {
@@ -65,19 +61,35 @@ export default function EditUser() {
       console.log(items);
     }
   }, [items]);
+
+  const [branches, setBranches] = useState([]);
+
+  useEffect(async () => {
+    if (branches.length < 1) {
+      const response = await fetch("http://localhost:8000/api/branches");
+      const data = await response.json();
+      setBranches(data.data.data);
+      console.log(branches);
+    } else {
+      console.log("else");
+      console.log(branches);
+    }
+  }, [branches]);
+
   return (
     <div id="book-a-table">
       <section id="book-a-table" className="book-a-table">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
-            <h2>User</h2>
-            <p>Edit user info</p>
+            <h2>Sign Up</h2>
+            <p>Come to the tasty side</p>
           </div>
+
           <form
+            onSubmit={handleSubmit}
             // action="forms/book-a-table.php"
-            autoComplete="off"
-            // className="php-email-form"
-            onSubmit={handleSubmit}>
+            // className="form-control"
+          >
             <div className="form-row">
               <div className="col-lg-12 col-md-12 form-group">
                 <input
@@ -85,11 +97,12 @@ export default function EditUser() {
                   name="username"
                   className="form-control"
                   id="username"
+                  // onChange={({ target: { value } }) => setUsername(value)}
+                  value={user.username}
                   placeholder="Your Username"
                   data-rule="minlen:4"
                   data-msg="Please enter at least 4 chars"
-                  //   autocomplete="off"
-                  defaultValue={userData.username}
+                  autocomplete="off"
                   onChange={(e) => handleChange(e)}
                 />
                 <div className="validate" />
@@ -97,47 +110,53 @@ export default function EditUser() {
               <div className="col-lg-12 col-md-12 form-group">
                 <input
                   type="email"
+                  // onChange={({ target: { value } }) => setEmail(value)}
+                  value={user.email}
                   className="form-control"
                   name="email"
                   id="email"
                   placeholder="Your Email"
                   data-rule="email"
                   data-msg="Please enter a valid email"
-                  //   autocomplete="off"
-                  defaultValue={userData.email}
+                  autocomplete="off"
                   onChange={(e) => handleChange(e)}
                 />
                 <div className="validate" />
               </div>
-              {/* <div className="col-lg-12 col-md-12 form-group">
+              <div className="col-lg-12 col-md-12 form-group">
                 <input
-                  type="text"
+                  type="password"
+                  // onChange={({ target: { value } }) => setPassword(value)}
+                  value={user.password}
                   name="password"
                   className="form-control"
                   id="password"
                   placeholder="Your Password"
                   data-rule="minlen:4"
                   data-msg="Please enter at least 4 chars"
-                //   autocomplete="off"
-                  defaultValue={userData.email}
+                  autocomplete="off"
                   onChange={(e) => handleChange(e)}
                 />
                 <div className="validate" />
-              </div> */}
-              {/* <div className="col-lg-12 col-md-12 form-group">
+              </div>
+              <div className="col-lg-12 col-md-12 form-group">
                 <input
-                  type="text"
-                  name="confirm-password"
+                  type="password"
+                  // onChange={({ target: { value } }) =>
+                  //   setPasswordConfirm(value)
+                  // }
+                  value={user.passwordConfirm}
+                  name="passwordConfirm"
                   className="form-control"
                   id="confirm-password"
                   placeholder="Confirm Your Password"
                   data-rule="minlen:4"
                   data-msg="Please enter at least 4 chars"
-                //   autocomplete="off"
+                  autocomplete="off"
                   onChange={(e) => handleChange(e)}
                 />
                 <div className="validate" />
-              </div> */}
+              </div>
               <div className="col-lg-12 col-md-12 form-group">
                 <div className="section-title">
                   <h2>Choose Your Favorite Burger</h2>
@@ -148,7 +167,7 @@ export default function EditUser() {
                   //   value !== "" && setFavItem(value)
                   // }
                   onChange={(e) => handleChange(e)}
-                  value={userData.favItem}
+                  value={user.favItem}
                   className="form-control"
                   id="fav-item"
                   placeholder="Choose Your Favorite Burger"
@@ -164,7 +183,6 @@ export default function EditUser() {
                     }
                   })}
                 </select>
-
                 <div className="validate" />
               </div>
               <div className="col-lg-12 col-md-12 form-group">
@@ -177,7 +195,7 @@ export default function EditUser() {
                   //   value !== "" && setFavBranch(value)
                   // }
                   onChange={(e) => handleChange(e)}
-                  value={userData.favBranch}
+                  value={user.favBranch}
                   className="form-control"
                   id="fav-branch"
                   placeholder="Choose Your Favorite Branch"
@@ -202,7 +220,15 @@ export default function EditUser() {
               </div>
             </div>
             <div className="text-center">
-              <button type="submit">Edit</button>
+              {/* <Link to="/"> */}
+              <button type="submit">Sign Up</button>
+              {/* </Link> */}
+            </div>
+            <br></br>
+            <div className="text-center">
+              <Link to="/">
+                <button type="submit">Already have a user? Sign In</button>
+              </Link>
             </div>
           </form>
         </div>
@@ -210,3 +236,4 @@ export default function EditUser() {
     </div>
   );
 }
+export default SignUp;
