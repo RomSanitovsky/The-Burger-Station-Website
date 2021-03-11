@@ -136,14 +136,14 @@ export default function Branch() {
                   />
                 </Link>
               )}
-              <input
+              {/* <input
                 type="text"
                 name="searchMenu"
                 className="form-control"
                 id="searchMenu"
                 placeholder="Search"
                 onChange={(e) => handleChange(e)}
-              />
+              /> */}
             </p>
           </div>
           <div className="row" data-aos="fade-up" data-aos-delay={100}>
@@ -162,27 +162,27 @@ export default function Branch() {
             data-aos-delay={200}>
             {query && query.length > 0
               ? filter.map((obj) => (
-                  <BranchItem
-                    id={obj.id}
-                    itemList={obj.itemList}
-                    city={obj.city}
-                    address={obj.address}
-                    district={obj.district}
-                    setDistricts={setDistricts}
-                    setItems={setItems}
-                    items={items}></BranchItem>
-                ))
+                <BranchItem
+                  id={obj.id}
+                  itemList={obj.itemList}
+                  city={obj.city}
+                  address={obj.address}
+                  district={obj.district}
+                  setDistricts={setDistricts}
+                  setItems={setItems}
+                  items={items}></BranchItem>
+              ))
               : items.map((obj) => (
-                  <BranchItem
-                    id={obj.id}
-                    itemList={obj.itemList}
-                    city={obj.city}
-                    address={obj.address}
-                    district={obj.district}
-                    setDistricts={setDistricts}
-                    setItems={setItems}
-                    items={items}></BranchItem>
-                ))}
+                <BranchItem
+                  id={obj.id}
+                  itemList={obj.itemList}
+                  city={obj.city}
+                  address={obj.address}
+                  district={obj.district}
+                  setDistricts={setDistricts}
+                  setItems={setItems}
+                  items={items}></BranchItem>
+              ))}
           </div>
         </div>
       </section>

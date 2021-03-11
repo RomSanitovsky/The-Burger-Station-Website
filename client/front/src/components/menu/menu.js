@@ -122,14 +122,14 @@ export default function Menu() {
                   />
                 </Link>
               )}
-              <input
+              {/* <input
                 type="text"
                 name="searchMenu"
                 className="form-control"
                 id="searchMenu"
                 placeholder="Search"
                 onChange={(e) => handleChange(e)}
-              />
+              /> */}
             </p>
           </div>
           <div className="row" data-aos="fade-up" data-aos-delay={100}>
@@ -147,25 +147,25 @@ export default function Menu() {
             data-aos-delay={200}>
             {query && query.length > 0
               ? filter.map((obj) => (
-                  <MenuItem
-                    id={obj._id}
-                    name={obj.name}
-                    price={obj.price}
-                    type={obj.type}
-                    setItems={setItems}
-                    items={items}
-                    setTypes={setTypes}></MenuItem>
-                ))
+                <MenuItem
+                  id={obj._id}
+                  name={obj.name}
+                  price={obj.price}
+                  type={obj.type}
+                  setItems={setItems}
+                  items={items}
+                  setTypes={setTypes}></MenuItem>
+              ))
               : items.map((obj) => (
-                  <MenuItem
-                    id={obj._id}
-                    name={obj.name}
-                    price={obj.price}
-                    type={obj.type}
-                    setItems={setItems}
-                    items={items}
-                    setTypes={setTypes}></MenuItem>
-                ))}
+                <MenuItem
+                  id={obj._id}
+                  name={obj.name}
+                  price={obj.price}
+                  type={obj.type}
+                  setItems={setItems}
+                  items={items}
+                  setTypes={setTypes}></MenuItem>
+              ))}
           </div>
         </div>
       </section>

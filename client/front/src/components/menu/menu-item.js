@@ -26,20 +26,13 @@ export default function MenuItem(props) {
       });
   };
 
-  const imgPath = (path) => {
-    try {
-      return require(`${path}`);
-    } catch (err) {
-      return "assets/img/icon/city-icon.png";
-    }
-  }
-
   return (
     <div className={`col-lg-6 menu-item filter-${props.type}`}>
       <img
         src={"assets/img/menu/" + props.name + ".png"}
         className="menu-img"
         alt=""
+        onError={(e) => { e.target.onerror = null; e.target.src = "assets/img/icons/city-icon.png" }}
       />
       <div className="menu-content">
         <a>{props.name}</a>
