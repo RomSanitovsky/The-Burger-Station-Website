@@ -5,7 +5,7 @@ export default function Staff() {
         <div className="container" data-aos="fade-up">
           <div className="section-title">
             <h2>Staff</h2>
-            <p>Our Demigods</p>
+            <p>The Four Amigos</p>
           </div>
           <div className="row">
             <div className="col-lg-3 col-md-6">
