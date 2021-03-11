@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useCookies } from "react-cookie";
 import { useHistory } from "react-router-dom";
+import SignOut from "../authentication/SignOut";
 export default function EditUser() {
   const [cookies] = useCookies(["user"]);
   const history = useHistory();
@@ -197,6 +198,10 @@ export default function EditUser() {
             <div className="php-email-form text-center">
               <button type="submit" className="col-lg-6 col-md-6">
                 Edit
+              </button>
+              <p></p>
+              <button type="submit" className="col-lg-6 col-md-6 ">
+                <SignOut />
               </button>
             </div>
           </form>

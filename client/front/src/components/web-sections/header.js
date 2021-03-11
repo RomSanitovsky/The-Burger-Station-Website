@@ -5,7 +5,7 @@ import { CgProfile } from "react-icons/cg";
 import { useCookies } from "react-cookie";
 import { useHistory } from "react-router-dom";
 import { useStore } from "../authentication/Login";
-import SignOut from "../authentication/SignOut";
+
 
 export default function Header() {
   const [cookies, setCookie, removeCookie] = useCookies(["user"]);
@@ -124,7 +124,6 @@ export default function Header() {
                 </div>
               </Link>
             </li>
-            <SignOut />
           </ul>
         </nav>
       </div>

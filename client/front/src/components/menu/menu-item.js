@@ -25,6 +25,15 @@ export default function MenuItem(props) {
         console.log("delete", res.data.data);
       });
   };
+
+  const imgPath = (path) => {
+    try {
+      return require(`${path}`);
+    } catch (err) {
+      return "assets/img/icon/city-icon.png";
+    }
+  }
+
   return (
     <div className={`col-lg-6 menu-item filter-${props.type}`}>
       <img
