@@ -20,7 +20,7 @@ export default function Header() {
         className="container d-flex align-items-center"
         style={{ justifyContent: "space-around" }}>
         <h1 className="logo ">
-          <a href="index.html">Burger Station</a>
+          <a href="home">Burger Station</a>
         </h1>
         <nav style={{ display: "flex" }} className="nav-menu">
           <ul>

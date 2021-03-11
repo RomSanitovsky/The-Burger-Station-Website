@@ -76,14 +76,7 @@ export const Login = () => {
                 <div className="validate" />
               </div>
             </div>
-            <div className="mb-3">
-              {/* <div className="loading">Loading</div> */}
-              <div className="error-message" />
-              <div className="sent-message">
-                Your booking request was sent. We will call back or send an
-                Email to confirm your reservation. Thank you!
-              </div>
-            </div>
+            
             <div className="text-center">
               <button type="submit">Sign In</button>
             </div>

@@ -20,7 +20,7 @@ export default function SignOut() {
     <div
       onClick={() => handleLogOut()}
       style={{ marginLeft: "2rem", cursor: "pointer" }}>
-      logOut
+      Logout
     </div>
   );
 }

@@ -101,20 +101,13 @@ export default function CreateMenuItem() {
                 <div className="validate" />
               </div>
             </div>
-            <div className="mb-3">
-              <div className="loading">Loading</div>
-              <div className="error-message" />
-              <div className="sent-message">
-                Your booking request was sent. We will call back or send an
-                Email to confirm your reservation. Thank you!
-              </div>
-            </div>
+            
             <div className="text-center">
               <button type="submit" className="col-lg-12 col-md-12">
                 Create
               </button>
               <p></p>
-              <Link to="/"> Back </Link>
+              <Link to="/home"> Back </Link>
             </div>
           </form>
         </div>

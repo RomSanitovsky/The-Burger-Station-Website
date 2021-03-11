@@ -39,10 +39,9 @@ mongoose.connect(DB ,
             origin: ['http://localhost:4200','http://localhost:3000'],
             methods: ["GET","POST"],
             credentials: true,
-        },
-        //allowEIO3: false 
+        }
     });
-
+    
     io.on('connection', (socket) => {
         // Listening for chat event
         socket.on('chat', function(data){

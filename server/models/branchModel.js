@@ -1,30 +1,34 @@
 const mongoose = require('mongoose');
 const validator = require('validator');
 
-const branchSchema = new mongoose.Schema({
+const branchSchema = new mongoose.Schema(
+  {
     city: {
-        type: String,
-        required: [true , 'branch must have a city']
+      type: String,
+      required: [true, 'branch must have a city'],
     },
 
-    district : {
-        type: String,
-        required: [true , 'branch must have a district'],
-        enum: ['Southern',  'Northern', 'Central'],
+    district: {
+      type: String,
+      required: [true, 'branch must have a district'],
+      enum: ['Southern', 'Northern', 'Central'],
     },
-    address :{
-        type: String,
-        required: [true , 'branch must have an Address']
+    address: {
+      type: String,
+      required: [true, 'branch must have an Address'],
     },
-    itemList : [{
+    itemList: [
+      {
         type: mongoose.Schema.ObjectId,
-        ref: 'Item'
-    }], 
-},
-{
-    toJSON: {virtuals:true},
-    toObject: {virtuals:true}
-});
+        ref: 'Item',
+      },
+    ],
+  },
+  {
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true },
+  }
+);
 
-const Branch = mongoose.model('Branch' , branchSchema);
-module.exports = Branch; 
+const Branch = mongoose.model('Branch', branchSchema);
+module.exports = Branch;
