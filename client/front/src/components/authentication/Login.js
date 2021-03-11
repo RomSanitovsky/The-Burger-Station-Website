@@ -76,16 +76,20 @@ export const Login = () => {
                 <div className="validate" />
               </div>
             </div>
-            
-            <div className="text-center">
-              <button type="submit">Sign In</button>
+
+            <div className="php-email-form text-center">
+              <button type="submit" className="col-lg-6 col-md-6">
+                Sign-Up
+              </button>
             </div>
             <p></p>
             <div className="text-center">
               <Link to="/signup">
-                <button type="submit">
-                  Want to join to the tasty side? Sign Up
-                </button>
+                <div className="php-email-form text-center">
+                  <button type="submit" className="col-lg-6 col-md-6">
+                    Want to join to the tasty side? Sign Up
+                  </button>
+                </div>
               </Link>
             </div>
           </form>

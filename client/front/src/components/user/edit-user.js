@@ -193,9 +193,11 @@ export default function EditUser() {
                 <div className="validate" />
               </div>
             </div>
-            
-            <div className="text-center">
-              <button type="submit">Edit</button>
+
+            <div className="php-email-form text-center">
+              <button type="submit" className="col-lg-6 col-md-6">
+                Edit
+              </button>
             </div>
           </form>
         </div>

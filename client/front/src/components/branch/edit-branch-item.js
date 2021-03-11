@@ -108,7 +108,7 @@ export default function EditBranchItem() {
                   {districts.map((district, i) => (
                     <option key={i}> {district}</option>
                   ))}
-                   <option value="" disabled selected hidden>Please Choose...</option>
+                  <option value="" disabled selected hidden>Please Choose...</option>
                 </select>
                 <div className="validate" />
               </div>
@@ -135,16 +135,16 @@ export default function EditBranchItem() {
                 <div className="validate" />
               </div>
             </div>
-            
-            <div className="text-center">
+
+            <div className="text-center php-email-form text-center">
               <button type="submit" className="col-lg-12 col-md-12">
                 Edit
               </button>
               <p></p>
               <Link to="/home">
-                <button type="submit" className="col-lg-12 col-md-12">
+                <button type="submit" className="col-lg-12 col-md-12 ">
                   Back
-                </button>
+              </button>
               </Link>
             </div>
           </form>

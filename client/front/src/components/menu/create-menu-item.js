@@ -16,7 +16,7 @@ export default function CreateMenuItem() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    if (data.name.length < 1 || data.price.length < 1)
+    if (data.name == null || data.price == null || data.type == null)
       return alert("all fields are required");
 
     await axios
@@ -38,8 +38,8 @@ export default function CreateMenuItem() {
           </div>
           <form
             onSubmit={handleSubmit}
-            // action="forms/book-a-table.php"
-            // className="php-email-form"
+          // action="forms/book-a-table.php"
+          // className="php-email-form"
           >
             <div className="form-row">
               <div className="col-lg-12 col-md-12 form-group">
@@ -94,20 +94,28 @@ export default function CreateMenuItem() {
                   data-rule="minlen:4"
                   data-msg="Please enter at least 4 chars"
                   autocomplete="off">
-                  <option value=""> choose type </option>
+                  <option value="" disabled selected hidden>Please Choose Type...</option>
                   <option value="drink"> drink </option>
                   <option value="food"> food </option>
                 </select>
                 <div className="validate" />
               </div>
             </div>
-            
+
             <div className="text-center">
-              <button type="submit" className="col-lg-12 col-md-12">
-                Create
+              <div className="php-email-form">
+                <button type="submit" className="col-lg-6 col-md-6">
+                  Create
               </button>
+              </div>
               <p></p>
-              <Link to="/home"> Back </Link>
+              <Link to="/home">
+                <div className="php-email-form">
+                  <button type="submit" className="col-lg-6 col-md-6">
+                    Back
+                  </button>
+                </div>
+              </Link>
             </div>
           </form>
         </div>

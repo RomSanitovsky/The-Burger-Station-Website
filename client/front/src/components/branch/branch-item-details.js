@@ -20,7 +20,7 @@ export default function BranchItemDetails(props) {
                                 <div className="validate" />
                             </div>
                         </div>
-                      
+
                         <div className="text-center">
                             <Link to="/home">
                                 <button type="submit">

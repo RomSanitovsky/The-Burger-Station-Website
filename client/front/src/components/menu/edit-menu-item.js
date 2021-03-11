@@ -98,20 +98,23 @@ export default function EditMenuItem() {
                   data-rule="minlen:4"
                   data-msg="Please enter at least 4 chars"
                   autocomplete="off">
-                  <option value=""> choose type </option>
                   <option value="drink"> drink </option>
                   <option value="food"> food </option>
                 </select>
                 <div className="validate" />
               </div>
             </div>
-           
+
             <div className="text-center">
               <button type="submit" className="col-lg-12 col-md-12">
                 Edit
               </button>
               <p></p>
-              <Link to="/home"> Back </Link>
+              <Link to="/home">
+                <button type="submit" className="col-lg-12 col-md-12">
+                  Back
+              </button>
+              </Link>
             </div>
           </form>
         </div>

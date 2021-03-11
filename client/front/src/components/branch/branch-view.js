@@ -10,33 +10,33 @@ export default function BranchView() {
   useEffect(() => {
     axios
       .get(`http://localhost:8000/api/branches/${id}`)
-      .then((res) => setData(res.data.data.data)); 
-      
-      axios.get("http://localhost:8000/api/items")
+      .then((res) => setData(res.data.data.data));
+
+    axios.get("http://localhost:8000/api/items")
       .then((res) => setItems(res.data.data.data));
 
   }, []);
 
-  
+
   const findItemName = (itemId) => {
     items.forEach(element => {
       //console.log('findItemFunc:');
-      if (element._id === itemId){
+      if (element._id === itemId) {
         return element.name;
       }
     });
   }
 
-    // const findItem = (item) => {
-    //   axios
-    //     .get(`http://localhost:8000/api/items/${item}`)
-    //     .then((res) => setItems(res.data.data.data.data.name));
-    // };
+  // const findItem = (item) => {
+  //   axios
+  //     .get(`http://localhost:8000/api/items/${item}`)
+  //     .then((res) => setItems(res.data.data.data.data.name));
+  // };
 
   console.log("data", data);
   return (
     <div id="branchView">
-      <section id="branchView" className="branchView section-bg">
+      <section id="branchView" className="branchView section-bg book-a-table">
         <div className="container" data-aos="fade-up">
           <div>
             {data && (
@@ -52,13 +52,17 @@ export default function BranchView() {
             )}
           </div>
         </div>
-        <Link to="/home">
-                <button type="submit" className="col-lg-12 col-md-12">
-                  Back
-                </button>
-              </Link>
+        <div className="text-center">
+          <Link to="/home">
+            <div className="php-email-form text-center">
+              <button type="submit" className="col-lg-6 col-md-6">
+                Back
+              </button>
+            </div>
+          </Link>
+        </div>
       </section>
-      
+
     </div>
   );
 }

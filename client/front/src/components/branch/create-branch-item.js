@@ -24,6 +24,8 @@ export default function CreateBranchItem() {
   console.log(multi, "multy");
   const handleSubmit = (event) => {
     event.preventDefault();
+    if (data.name == null || data.address == null || data.district == null)
+      return alert("all fields are required");
     axios
       .post("http://localhost:8000/api/branches", data, {
         headers: {
@@ -95,10 +97,10 @@ export default function CreateBranchItem() {
                   data-rule="minlen:4"
                   autocomplete="off"
                   onChange={(e) => handleChange(e)}>
+                  <option value="" disabled selected hidden>Please Choose Branch's District ...</option>
                   {districts.map((district, i) => (
                     <option key={i}> {district}</option>
                   ))}
-                  <option value="" disabled selected hidden>Please Choose...</option>
                 </select>
                 <div className="validate" />
               </div>
@@ -127,16 +129,20 @@ export default function CreateBranchItem() {
                 <div className="validate" />
               </div>
             </div>
-            
+
             <div className="text-center">
-              <button type="submit" className="col-lg-12 col-md-12">
-                Create
-              </button>
+              <div className="php-email-form text-center">
+                <button type="submit" className="col-lg-6 col-md-6">
+                  Create
+                </button>
+              </div>
               <p> </p>
               <Link to="/home">
-                <button type="submit" className="col-lg-12 col-md-12">
-                  Back
-                </button>
+                <div className="php-email-form text-center">
+                  <button type="submit" className="col-lg-6 col-md-6">
+                    Back
+                  </button>
+                </div>
               </Link>
             </div>
           </form>

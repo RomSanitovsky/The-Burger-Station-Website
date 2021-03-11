@@ -87,8 +87,8 @@ function SignUp() {
 
           <form
             onSubmit={handleSubmit}
-            // action="forms/book-a-table.php"
-            // className="form-control"
+          // action="forms/book-a-table.php"
+          // className="form-control"
           >
             <div className="form-row">
               <div className="col-lg-12 col-md-12 form-group">
@@ -173,7 +173,7 @@ function SignUp() {
                   placeholder="Choose Your Favorite Burger"
                   data-rule="minlen:4"
                   autocomplete="off">
-                  <option> </option>
+                  <option value="" disabled selected hidden>Please Choose Your Favorite Burger...</option>
                   {items.map((item) => {
                     if (
                       item.name.includes("Burger") ||
@@ -201,7 +201,7 @@ function SignUp() {
                   placeholder="Choose Your Favorite Branch"
                   data-rule="minlen:4"
                   autocomplete="off">
-                  <option> </option>
+                  <option value="" disabled selected hidden>Please Choose Your Favorite Branch...</option>
                   {branches.map((item) => (
                     <option>
                       {item.address} {item.city} {item.district}
@@ -211,23 +211,23 @@ function SignUp() {
                 <div className="validate" />
               </div>
             </div>
-            <div className="mb-3">
-              <div className="loading">Loading</div>
-              <div className="error-message" />
-              <div className="sent-message">
-                Your booking request was sent. We will call back or send an
-                Email to confirm your reservation. Thank you!
-              </div>
-            </div>
             <div className="text-center">
               {/* <Link to="/"> */}
-              <button type="submit">Sign Up</button>
+              <div className="php-email-form text-center">
+                <button type="submit" className="col-lg-6 col-md-6">
+                  Sign Up
+                </button>
+              </div>
               {/* </Link> */}
             </div>
             <br></br>
             <div className="text-center">
               <Link to="/">
-                <button type="submit">Already have a user? Sign In</button>
+                <div className="php-email-form text-center">
+                  <button type="submit" className="col-lg-6 col-md-6">
+                    Are You Already a Burger-Station Member? Sign In
+                  </button>
+                </div>
               </Link>
             </div>
           </form>
