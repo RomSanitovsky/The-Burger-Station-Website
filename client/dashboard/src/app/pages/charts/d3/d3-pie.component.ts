@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, Observable, timer } from 'rxjs';
 import { Branch } from '../../../models/branch';
 import { Item } from '../../../models/item';
 import { BranchesService } from '../../../services/branch.service';
@@ -34,6 +34,7 @@ export class D3PieComponent implements OnDestroy, OnInit {
   showLabels = true;
   colorScheme: any;
   themeSubscription: any;
+  everyFiveSeconds: Observable<number> = timer(0, 5000);
 
   branches: Branch[];
   items: Item[];
@@ -53,6 +54,9 @@ export class D3PieComponent implements OnDestroy, OnInit {
   }
 
   ngOnInit(): void {
+    this.themeSubscription = this.everyFiveSeconds.subscribe(() => {
+      this.themeSubscription();
+    });
 
     this.results.push({ name: 'Food', value: this.foodCount });
     this.results.push({ name: 'Drink', value: this.drinkCount });
