@@ -92,12 +92,15 @@ export default function App() {
             </PrivateRoute>
           )}
         </Switch>
-        {isEmpty(userData) && (
+        {/* {isEmpty(userData) && (
           <div>
             <Footer />
             <BackToTop />
           </div>
-        )}
+        )} */}
+
+        <Footer />
+        <BackToTop />
       </BrowserRouter>
     </dev>
   );
