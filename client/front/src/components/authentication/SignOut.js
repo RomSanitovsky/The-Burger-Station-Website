@@ -10,17 +10,15 @@ export default function SignOut() {
   const { setUserData, userData } = useStore();
 
   const handleLogOut = () => {
-    removeCookie("user");
-    setUserData({});
     history.push("/");
-    console.log("cookies", cookies);
+    
   };
 
   return (
     <div
       onClick={() => handleLogOut()}
       style={{ marginLeft: "2rem", cursor: "pointer" }}>
-      Sign Out
+      Switch Users
     </div>
   );
 }
