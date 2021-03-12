@@ -3,9 +3,12 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import MenuItem from "./menu-item";
 import { useStore } from "../authentication/Login";
+import { useCookies } from "react-cookie";
 export default function Menu() {
   const [filter, setFilter] = useState([]);
   const [query, setQuery] = useState("");
+  const [cookies] = useCookies();
+  let role = cookies.user.data.user.role
   const handleChange = (e) => {
     setQuery(e.target.value);
     setFilter(
@@ -113,7 +116,7 @@ export default function Menu() {
                 style={{ paddingLeft: "40px", cursor: "pointer" }}
                 onClick={() => handleSort()}
               />
-              {userData.role === "admin" && (
+              {role === "admin" && (
                 <Link to="/createitem">
                   <img
                     src="assets/img/icons/plus.png"

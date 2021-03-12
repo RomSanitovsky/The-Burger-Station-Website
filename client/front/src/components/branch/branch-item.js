@@ -8,6 +8,7 @@ export default function BranchItem(props) {
 
   const { id } = props;
   const [cookies] = useCookies();
+  let role = cookies.user.data.user.role
   const handleDelete = () => {
     axios
       .delete(`http://localhost:8000/api/branches/${id}`, {
@@ -38,7 +39,7 @@ export default function BranchItem(props) {
         <span>{props.district}</span>
       </div>
       <div className="menu-ingredients">{props.address}</div>
-      {userData.role === "admin" && (
+      {role === "admin" && (
         <div className="menu-ingredients">
           <img
             src="assets/img/icons/delete.png"
