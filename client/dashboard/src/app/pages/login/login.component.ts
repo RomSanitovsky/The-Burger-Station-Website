@@ -49,7 +49,6 @@ export class LoginComponent implements OnInit {
       return;
     }
     this.UsersService.signIn(this.userObj.userEmail,this.userObj.userPassword);
-    //this.setUserName();
   }
 
   logoutUser() {
@@ -59,15 +58,7 @@ export class LoginComponent implements OnInit {
     return this.UsersService.loggedIn();
   }
 
-  setUserName() {
-
-    //this.currentUser.userName = this.UsersService.getUserName();
-
-  }
-
-  showUserName() {
-    //console.log(this.UsersService.getUserName());
-  }
+  
 
 
 }
