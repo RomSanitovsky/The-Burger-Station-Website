@@ -40,11 +40,11 @@ const userSchema = new mongoose.Schema({
     },
   },
   favItem: {
-    type: String,
+    type: mongoose.Schema.ObjectId,
     ref: 'Item',
   },
   favBranch: {
-    type: String,
+    type: mongoose.Schema.ObjectId,
     ref: 'Branch',
   },
   passwordChangedAt: Date,

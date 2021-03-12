@@ -180,7 +180,7 @@ function SignUp() {
                       item.name.includes("Burger") ||
                       item.name.includes("burger")
                     ) {
-                      return <option>{item.name}</option>;
+                      return <option value={item._id}>{item.name}</option>;
                     }
                   })}
                 </select>
@@ -204,7 +204,7 @@ function SignUp() {
                   autocomplete="off">
                   <option value="" disabled selected hidden>Please Choose Your Favorite Branch...</option>
                   {branches.map((item) => (
-                    <option>
+                    <option value={item._id}>
                       {item.address} {item.city} {item.district}
                     </option>
                   ))}

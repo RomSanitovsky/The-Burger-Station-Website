@@ -13,9 +13,13 @@ export default function BranchView() {
       .then((res) => setData(res.data.data.data));
 
     axios.get("http://localhost:8000/api/items")
-      .then((res) => setItems(res.data.data.data));
+      .then((res) => setItems(fromArrayToObj(res.data.data.data)));
 
   }, []);
+
+  const fromArrayToObj = (array) => {
+    return array.reduce((prev,current)=>({...prev, [current._id]:current}),{})
+  }
 
 
   const findItemName = (itemId) => {
@@ -33,7 +37,9 @@ export default function BranchView() {
   //     .then((res) => setItems(res.data.data.data.data.name));
   // };
 
-  console.log("data", data);
+  if( !items|| !data ){
+    return (<div>Loading</div>);
+  }
   return (
     <div id="branchView">
       <section id="branchView" className="branchView section-bg book-a-table">
@@ -46,7 +52,7 @@ export default function BranchView() {
                 <div>{data.address}</div>
                 <div>{data.district}</div>
                 {data.itemList.map((item) => (
-                  <div>{(item)}</div>
+                  <div>{items && items[item]?.name}</div>
                 ))}
               </div>
             )}

@@ -13,6 +13,7 @@ export const useStore = create((set) => ({
 export const Login = () => {
   const [data, setData] = useState({});
   const [cookies, setCookie] = useCookies();
+  const [error, setError] = useState({});
 
   const history = useHistory();
 
@@ -33,12 +34,21 @@ export const Login = () => {
       title: 'Oops...',
       text: 'Enter correct Email and at least 8 digit Password!',
     })
-    axios.post("http://localhost:8000/Api/users/login", data).then((res) => {
-      setCookie("user", res.data, { path: "/" });
-      setUserData(res.data.data.user);
-
-      if (res.data.status == "success") return history.push("/home");
-    });
+      axios.post("http://localhost:8000/Api/users/login", data)
+        .then((res) => {
+        setCookie("user", res.data, { path: "/" });
+        setUserData(res.data.data.user);
+        
+        if (res.data.status === "success") return history.push("/home");
+      }).catch((err) => {
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: err.response.data.message,
+        })
+      });
+    
+    
   };
   return (
     <div id="book-a-table">
