@@ -153,5 +153,50 @@
     "city": "Yavne",
     "address": "Erez 19",
     "district": "Southern"
+  },
+  {
+    "city": "Netivot",
+    "address": "41 Haoman",
+    "district": "Southern"
+  },
+  {
+    "city": "Or Yehuda",
+    "address": "12 Barlev Haim",
+    "district": "Central"
+  },
+  {
+    "city": "Haifa",
+    "address": "61 Netiv Chen",
+    "district": "Northen"
+  },
+  {
+    "city": "Netivot",
+    "address": "41 Haoman",
+    "district": "Southern"
+  },
+  {
+    "city": "Kiryat Nordau",
+    "address": "4 Haomanut",
+    "district": "Southern"
+  },
+  {
+    "city": "Ashdod",
+    "address": "3 Dakar",
+    "district": "Southern"
+  },
+  {
+    "city": "Netivot",
+    "address": "41 Haoman",
+    "district": "Southern"
+  },
+  {
+    "city": "Tel Aviv",
+    "address": "53 Alon Igal",
+    "district": "Central"
+  },
+  {
+    "city": "Haifa",
+    "address": "18 Shaar Haguy",
+    "district": "Northern"
   }
 ]
