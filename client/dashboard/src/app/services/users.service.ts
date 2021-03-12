@@ -34,7 +34,6 @@ export class UsersService {
       password:password,
     }).subscribe((data:any)=>
     {
-      console.log('------------@!!');
       console.log(data);
       if (data.data.user.role != 'admin'){
         this.router.navigate(['/auth/login']);
