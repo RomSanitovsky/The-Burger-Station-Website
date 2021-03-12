@@ -24,14 +24,14 @@ export default function EditMenuItem() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    
+
     await axios.patch(`http://localhost:8000/api/items/${id}`, data, {
       headers: {
         Authorization: "Bearer " + cookies.user.token, //the token is a variable which holds the token
       },
-    }).then((res)=> {
+    }).then((res) => {
       if (res.data.status === "success") return history.push("/home");
-    }).catch((err)=>{
+    }).catch((err) => {
       Swal.fire({
         icon: 'error',
         title: 'Oops...',
@@ -56,9 +56,6 @@ export default function EditMenuItem() {
             <div className="form-row">
               <div className="col-lg-12 col-md-12 form-group">
                 <input
-                  //   onChange={({ target: { value } }) =>
-                  //     /^[a-zA-Z]+$/.test(value) && setName(value)
-                  //   }
                   onChange={(e) => handleChange(e)}
                   value={data.name}
                   type="text"
@@ -74,9 +71,6 @@ export default function EditMenuItem() {
               </div>
               <div className="col-lg-12 col-md-12 form-group">
                 <input
-                  //   onChange={({ target: { value } }) =>
-                  //     /^[0-9]*$/.test(value) && setPrice(value)
-                  //   }
                   onChange={(e) => handleChange(e)}
                   value={data.price}
                   type="text"
@@ -92,9 +86,6 @@ export default function EditMenuItem() {
               </div>
               <div className="col-lg-12 col-md-12 form-group">
                 <select
-                  //   onChange={({ target: { value } }) =>
-                  //     value !== "" && setType(value)
-                  //   }
                   onChange={(e) => handleChange(e)}
                   value={data.type}
                   type="text"
@@ -111,7 +102,6 @@ export default function EditMenuItem() {
                 <div className="validate" />
               </div>
             </div>
-
             <div className="text-center">
               <button type="submit" className="col-lg-12 col-md-12">
                 Edit

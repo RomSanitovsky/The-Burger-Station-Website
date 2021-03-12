@@ -20,32 +20,17 @@ export default function Branch() {
     axios.get(`http://localhost:8000/api/branches`).then((res) => {
       setItems(res.data.data.data);
       console.log("items", items);
-
-      // const districts = items.reduce((prev, current) => {
-      //   return [...new Set([...prev, current.district])];
-      // }, []);
       let arr = items.map((item) => item.district);
       setDistricts([...new Set(arr)]);
     });
   }, []);
   const handleChange = (e) => {
     setQuery(e.target.value);
-    // console.log(query);
     setFilter(
       items.filter((element) => {
         return element.city.toLowerCase().includes(query.toLowerCase());
       })
     );
-
-    // console.log(
-    //   "filter",
-    //   items.filter((element) => {
-    //     return (
-    //       //   element.name.toLowerCase().includes(query.toLowerCase()) ||
-    //       parseInt(element.price) == parseInt(query)
-    //     );
-    //   })
-    // );
   };
   const handleType = (type) => {
     switch (type) {
@@ -137,14 +122,6 @@ export default function Branch() {
                   />
                 </Link>
               )}
-              {/* <input
-                type="text"
-                name="searchMenu"
-                className="form-control"
-                id="searchMenu"
-                placeholder="Search"
-                onChange={(e) => handleChange(e)}
-              /> */}
             </p>
           </div>
           <div className="row" data-aos="fade-up" data-aos-delay={100}>

@@ -14,9 +14,6 @@ export default function Menu() {
     setFilter(
       items.filter((element) => {
         return element.name.toLowerCase().includes(query.toLowerCase());
-        //   parseInt(element.price) == parseInt(query)
-
-        //   element.price.includes(query)
       })
     );
   };

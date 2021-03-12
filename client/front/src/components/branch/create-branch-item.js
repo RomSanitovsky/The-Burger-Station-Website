@@ -31,8 +31,8 @@ export default function CreateBranchItem() {
           Authorization: "Bearer " + cookies.user.token, //the token is a variable which holds the token
         },
       })
-      .then((res) => { 
-        if (res.data.status === "success") return history.push("/home"); 
+      .then((res) => {
+        if (res.data.status === "success") return history.push("/home");
       }).catch((err) => {
         Swal.fire({
           icon: 'error',
@@ -61,7 +61,6 @@ export default function CreateBranchItem() {
             <p>Create branch</p>
           </div>
           <form
-            // action="forms/book-a-table.php" className="php-email-form"
             onSubmit={handleSubmit}>
             <div className="form-row">
               <div className="col-lg-12 col-md-12 form-group">
@@ -115,8 +114,6 @@ export default function CreateBranchItem() {
                 <div className="section-title">
                   <h2>Choose Items For The Branch</h2>
                 </div>
-                {/* <DropdownMultiselect  /> */}
-
                 <select
                   multiple
                   name="itemList"
@@ -136,7 +133,6 @@ export default function CreateBranchItem() {
                 <div className="validate" />
               </div>
             </div>
-
             <div className="text-center">
               <div className="php-email-form text-center">
                 <button type="submit" className="col-lg-6 col-md-6">

@@ -22,23 +22,21 @@ export const Login = () => {
     let value = e.target.value;
     setData({ ...data, [name]: value });
   };
-  // const userData;
-  // console.log("logIn");
   const { setUserData, userData } = useStore();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (data.email == null || data.password == null)
-    Swal.fire({
-      icon: 'error',
-      title: 'Oops...',
-      text: 'Enter correct Email and at least 8 digit Password!',
-    })
-      axios.post("http://localhost:8000/Api/users/login", data)
-        .then((res) => {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Enter correct Email and at least 8 digit Password!',
+      })
+    axios.post("http://localhost:8000/Api/users/login", data)
+      .then((res) => {
         setCookie("user", res.data, { path: "/" });
         setUserData(res.data.data.user);
-        
+
         if (res.data.status === "success") return history.push("/home");
       }).catch((err) => {
         Swal.fire({
@@ -47,8 +45,8 @@ export const Login = () => {
           text: err.response.data.message,
         })
       });
-    
-    
+
+
   };
   return (
     <div id="book-a-table">
@@ -59,8 +57,6 @@ export const Login = () => {
             <p>Come to the tasty side</p>
           </div>
           <form
-            // action="form/-a-table.php"
-            // className="php-email-form"
             onSubmit={handleSubmit}>
             <div className="form-row">
               <div className="col-lg-6 col-md-6 form-group">

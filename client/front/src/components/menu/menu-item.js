@@ -26,7 +26,6 @@ export default function MenuItem(props) {
         console.log("delete", res.data.data);
       });
   };
-
   return (
     <div className={`col-lg-6 menu-item filter-${props.type}`}>
       <img
@@ -44,7 +43,6 @@ export default function MenuItem(props) {
           <div style={{ cursor: "pointer" }} onClick={handleDelete}>
             <img src="assets/img/icons/delete.png" />
           </div>
-
           <Link
             to={`/edititem/${props.id}/${props.name}/${props.price}/${props.type}`}>
             <img src="assets/img/icons/edit.png" />

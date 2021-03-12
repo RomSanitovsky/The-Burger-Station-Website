@@ -24,7 +24,6 @@ export default function EditUser() {
       .then((res) => setUserData(res.data.data.data));
   }, []);
 
-  // console.log("userData", userData);
   const handleChange = (e) => {
     let name = e.target.name;
     let value = e.target.value;
@@ -48,7 +47,6 @@ export default function EditUser() {
       const response = await fetch("http://localhost:8000/api/branches");
       const data = await response.json();
       setBranches(data.data.data);
-      // console.log(branches);
     } else {
       console.log("else");
       console.log(branches);
@@ -82,9 +80,7 @@ export default function EditUser() {
             <p>Edit user info</p>
           </div>
           <form
-            // action="forms/book-a-table.php"
             autoComplete="off"
-            // className="php-email-form"
             onSubmit={handleSubmit}>
             <div className="form-row">
               <div className="col-lg-12 col-md-12 form-group">
@@ -96,7 +92,6 @@ export default function EditUser() {
                   placeholder="Your Username"
                   data-rule="minlen:4"
                   data-msg="Please enter at least 4 chars"
-                  //   autocomplete="off"
                   defaultValue={userData.username}
                   onChange={(e) => handleChange(e)}
                 />
@@ -111,50 +106,17 @@ export default function EditUser() {
                   placeholder="Your Email"
                   data-rule="email"
                   data-msg="Please enter a valid email"
-                  //   autocomplete="off"
                   defaultValue={userData.email}
                   onChange={(e) => handleChange(e)}
                 />
                 <div className="validate" />
               </div>
-              {/* <div className="col-lg-12 col-md-12 form-group">
-                <input
-                  type="text"
-                  name="password"
-                  className="form-control"
-                  id="password"
-                  placeholder="Your Password"
-                  data-rule="minlen:4"
-                  data-msg="Please enter at least 4 chars"
-                //   autocomplete="off"
-                  defaultValue={userData.email}
-                  onChange={(e) => handleChange(e)}
-                />
-                <div className="validate" />
-              </div> */}
-              {/* <div className="col-lg-12 col-md-12 form-group">
-                <input
-                  type="text"
-                  name="confirm-password"
-                  className="form-control"
-                  id="confirm-password"
-                  placeholder="Confirm Your Password"
-                  data-rule="minlen:4"
-                  data-msg="Please enter at least 4 chars"
-                //   autocomplete="off"
-                  onChange={(e) => handleChange(e)}
-                />
-                <div className="validate" />
-              </div> */}
               <div className="col-lg-12 col-md-12 form-group">
                 <div className="section-title">
                   <h2>Choose Your Favorite Burger</h2>
                 </div>
                 <select
                   name="favItem"
-                  // onChange={({ target: { value } }) =>
-                  //   value !== "" && setFavItem(value)
-                  // }
                   onChange={(e) => handleChange(e)}
                   value={userData.favItem}
                   className="form-control"
@@ -181,9 +143,6 @@ export default function EditUser() {
                 </div>
                 <select
                   name="favBranch"
-                  // onChange={({ target: { value } }) =>
-                  //   value !== "" && setFavBranch(value)
-                  // }
                   onChange={(e) => handleChange(e)}
                   value={userData.favBranch}
                   className="form-control"
