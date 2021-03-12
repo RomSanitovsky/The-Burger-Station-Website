@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import {HttpClient,HttpHeaders} from '@angular/common/http';
 import { BehaviorSubject } from 'rxjs';
 import {User} from '../models/user';
+import Swal from 'sweetalert2';
 
 import {Router} from '@angular/router'
 
@@ -33,9 +34,19 @@ export class UsersService {
       password:password,
     }).subscribe((data:any)=>
     {
+      console.log('------------@!!');
       console.log(data);
+      if (data.data.user.role != 'admin'){
+        this.router.navigate(['/auth/login']);
+        return Swal.fire({
+          title: 'error',
+          icon: "error",
+          text: 'User is not admin'
+        })
+      }
       localStorage.setItem('token',data.token);
       this.router.navigate(['/pages/dashboard']);
+     
     },(error)=>{
       console.log(error);
       this.errorMessage=error.error.message;
