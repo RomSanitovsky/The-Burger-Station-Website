@@ -60,11 +60,6 @@
     "type": "drink"
   },
   {
-    "name": "Corona-Beer",
-    "price": 9,
-    "type": "drink"
-  },
-  {
     "name": "Australian Cheeseburger",
     "price": 14,
     "type": "food"
@@ -205,11 +200,6 @@
     "type": "food"
   },
   {
-    "name": "Potato Chips",
-    "price": 8,
-    "type": "food"
-  },
-  {
     "name": "Sprite",
     "price": 6,
     "type": "drink"
@@ -230,14 +220,9 @@
     "type": "food"
   },
   {
-    "name": "Potato Chips",
+    "name": "Sweet Potatos",
     "price": 8,
     "type": "food"
-  },
-  {
-    "name": "Carlsburg",
-    "price": 10,
-    "type": "drink"
   },
   {
     "name": "Indian Burger",
