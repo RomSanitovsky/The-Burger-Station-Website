@@ -168,7 +168,7 @@ export default function EditUser() {
                       item.name.includes("Burger") ||
                       item.name.includes("burger")
                     ) {
-                      return <option>{item.name}</option>;
+                      return <option value={item._id}>{item.name}</option>;
                     }
                   })}
                 </select>
@@ -193,7 +193,7 @@ export default function EditUser() {
                   autocomplete="off">
                   <option> </option>
                   {branches.map((item) => (
-                    <option>
+                    <option value={item._id}>
                       {item.address} {item.city} {item.district}
                     </option>
                   ))}
