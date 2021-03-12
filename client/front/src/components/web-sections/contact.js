@@ -48,6 +48,7 @@ export default function Contact() {
                 <div className="form-row">
                   <div className="col-md-6 form-group">
                     <input
+                      disabled
                       type="text"
                       name="name"
                       className="form-control"
@@ -61,6 +62,7 @@ export default function Contact() {
                   </div>
                   <div className="col-md-6 form-group">
                     <input
+                      disabled
                       type="email"
                       className="form-control"
                       name="email"
@@ -75,6 +77,7 @@ export default function Contact() {
                 </div>
                 <div className="form-group">
                   <input
+                    disabled
                     type="text"
                     className="form-control"
                     name="subject"
@@ -88,6 +91,7 @@ export default function Contact() {
                 </div>
                 <div className="form-group">
                   <textarea
+                    disabled
                     className="form-control"
                     name="message"
                     rows={8}
