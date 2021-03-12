@@ -24,6 +24,7 @@ export default function App() {
   }
   console.log(isEmpty(userData));
   const [cookies] = useCookies();
+  let role = cookies.user.data.user.role
   // console.log("cookies", cookies.user.data.user.role);
   return (
     <dev>
@@ -37,12 +38,12 @@ export default function App() {
           <Route path="/signup">
             <SignUp />
           </Route>
-          {userData.role === "admin" && (
+          {role === "admin" && (
             <PrivateRoute admin path="/createitem">
               <CreateMenuItem />
             </PrivateRoute>
           )}
-          {userData.role === "admin" && (
+          {role === "admin" && (
             <PrivateRoute path="/edititem/:id/:name/:price/:type">
               <EditMenuItem />
             </PrivateRoute>
@@ -51,17 +52,17 @@ export default function App() {
             <EditUser />
           </PrivateRoute>
 
-          {userData.role === "admin" && (
+          {role === "admin" && (
             <PrivateRoute path="/edititem/">
               <EditMenuItem />
             </PrivateRoute>
           )}
-          {userData.role === "admin" && (
+          {role === "admin" && (
             <PrivateRoute path="/editbranch/:id">
               <EditBranchItem />
             </PrivateRoute>
           )}
-          {/* {userData.role === "admin" ? (
+          {/* {role === "admin" ? (
             <PrivateRoute path="/editbranch/:id">
               <EditBranchItem />
             </PrivateRoute>
@@ -75,7 +76,7 @@ export default function App() {
             <BranchView />
           </PrivateRoute>
 
-          {/* {userData.role === "admin" ? (
+          {/* {role === "admin" ? (
             <PrivateRoute path="/createbranch">
               <CreateBranchItem />
             </PrivateRoute>
@@ -85,7 +86,7 @@ export default function App() {
             </PrivateRoute>
           )} */}
 
-          {userData.role === "admin" && (
+          {role === "admin" && (
             <PrivateRoute admin path="/createbranch">
               <CreateBranchItem />
             </PrivateRoute>

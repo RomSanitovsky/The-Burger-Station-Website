@@ -7,6 +7,7 @@ import { useStore } from "../authentication/Login";
 
 export default function Branch() {
   const [cookies] = useCookies(["user"]);
+  let role = cookies.user.data.user.role
   const [items, setItems] = useState([]);
   const [sortDirection, setSortDirection] = useState(false);
   const [districts, setDistricts] = useState([]);
@@ -127,7 +128,7 @@ export default function Branch() {
                 style={{ paddingLeft: "40px", cursor: "pointer" }}
                 onClick={() => handleSort()}
               />
-              {userData.role === "admin" && (
+              {role === "admin" && (
                 <Link to="/createbranch">
                   <img
                     src="assets/img/icons/plus.png"

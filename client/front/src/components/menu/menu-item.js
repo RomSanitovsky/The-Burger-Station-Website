@@ -8,6 +8,7 @@ export default function MenuItem(props) {
 
   const { id } = props;
   const [cookies] = useCookies();
+  let role = cookies.user.data.user.role
   const handleDelete = () => {
     axios
       .delete(`http://localhost:8000/api/items/${id}`, {
@@ -38,7 +39,7 @@ export default function MenuItem(props) {
         <a>{props.name}</a>
         <span>{props.price + " $"}</span>
       </div>
-      {userData.role === "admin" && (
+      {role === "admin" && (
         <div className="menu-ingredients" style={{ display: "flex" }}>
           <div style={{ cursor: "pointer" }} onClick={handleDelete}>
             <img src="assets/img/icons/delete.png" />

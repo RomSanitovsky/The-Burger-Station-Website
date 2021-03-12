@@ -6,6 +6,7 @@ import { useCookies } from "react-cookie";
 export default function EditMenuItem() {
   const history = useHistory();
   const [cookies] = useCookies();
+  let role = cookies.user.data.user.role
   const { id, name, type, price } = useParams();
 
   const [data, setData] = useState({
