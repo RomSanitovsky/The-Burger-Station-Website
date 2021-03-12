@@ -18,7 +18,7 @@ export default function BranchView() {
   }, []);
 
   const fromArrayToObj = (array) => {
-    return array.reduce((prev,current)=>({...prev, [current._id]:current}),{})
+    return array.reduce((prev, current) => ({ ...prev, [current._id]: current }), {})
   }
 
 
@@ -37,22 +37,26 @@ export default function BranchView() {
   //     .then((res) => setItems(res.data.data.data.data.name));
   // };
 
-  if( !items|| !data ){
+  if (!items || !data) {
     return (<div>Loading</div>);
   }
   return (
     <div id="branchView">
-      <section id="branchView" className="branchView section-bg book-a-table">
+      <section id="menu" class="menu section-bg">
         <div className="container" data-aos="fade-up">
-          <div>
+          <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
             {data && (
-              <div className="section-title">
+              <div className="section-title ">
                 <h2>Branch </h2>
-                <div>{data.city}</div>
-                <div>{data.address}</div>
-                <div>{data.district}</div>
+                <p>St. {data.address}, {data.city}, {data.district}</p>
                 {data.itemList.map((item) => (
-                  <div>{items && items[item]?.name}</div>
+                  <div>
+                    <div className="col-lg-36 menu-item ">
+                      <div className="menu-content  row menu-container">
+                        <a >{items && items[item]?.name}</a>
+                      </div>
+                    </div>
+                  </div>
                 ))}
               </div>
             )}
@@ -61,7 +65,7 @@ export default function BranchView() {
         <div className="text-center">
           <Link to="/home">
             <div className="php-email-form text-center">
-              <button type="submit" className="col-lg-6 col-md-6">
+              <button type="submit" className="col-lg-3 col-md-3">
                 Back
               </button>
             </div>
@@ -69,6 +73,6 @@ export default function BranchView() {
         </div>
       </section>
 
-    </div>
+    </div >
   );
 }

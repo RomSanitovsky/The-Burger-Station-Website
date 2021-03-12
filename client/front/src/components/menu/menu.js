@@ -19,16 +19,6 @@ export default function Menu() {
         //   element.price.includes(query)
       })
     );
-
-    // console.log(
-    //   "filter",
-    //   items.filter((element) => {
-    //     return (
-    //       //   element.name.toLowerCase().includes(query.toLowerCase()) ||
-    //       parseInt(element.price) == parseInt(query)
-    //     );
-    //   })
-    // );
   };
   const { setUserData, userData } = useStore();
 
@@ -125,14 +115,6 @@ export default function Menu() {
                   />
                 </Link>
               )}
-              {/* <input
-                type="text"
-                name="searchMenu"
-                className="form-control"
-                id="searchMenu"
-                placeholder="Search"
-                onChange={(e) => handleChange(e)}
-              /> */}
             </p>
           </div>
           <div className="row" data-aos="fade-up" data-aos-delay={100}>
