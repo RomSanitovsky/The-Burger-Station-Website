@@ -24,18 +24,11 @@ export default function BranchView() {
 
   const findItemName = (itemId) => {
     items.forEach(element => {
-      //console.log('findItemFunc:');
       if (element._id === itemId) {
         return element.name;
       }
     });
   }
-
-  // const findItem = (item) => {
-  //   axios
-  //     .get(`http://localhost:8000/api/items/${item}`)
-  //     .then((res) => setItems(res.data.data.data.data.name));
-  // };
 
   if (!items || !data) {
     return (<div>Loading</div>);

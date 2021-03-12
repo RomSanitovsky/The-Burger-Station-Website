@@ -17,7 +17,7 @@ export default function CreateMenuItem() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    if (data.type == null ){
+    if (data.type == null) {
       return Swal.fire({
         icon: 'error',
         title: 'Oops...',
@@ -51,16 +51,10 @@ export default function CreateMenuItem() {
           </div>
           <form
             onSubmit={handleSubmit}
-          // action="forms/book-a-table.php"
-          // className="php-email-form"
           >
             <div className="form-row">
               <div className="col-lg-12 col-md-12 form-group">
                 <input
-                  //   onChange={({ target: { value } }) =>
-                  //     /^[a-zA-Z]+$/.test(value) && setName(value)
-                  //   }
-
                   onChange={(e) => handleChange(e)}
                   value={data.name}
                   type="text"
@@ -76,9 +70,6 @@ export default function CreateMenuItem() {
               </div>
               <div className="col-lg-12 col-md-12 form-group">
                 <input
-                  //   onChange={({ target: { value } }) =>
-                  //     /^[0-9]*$/.test(value) && handleChange(value)
-                  //   }
                   onChange={(e) => handleChange(e)}
                   value={data.price}
                   type="number"
@@ -94,9 +85,6 @@ export default function CreateMenuItem() {
               </div>
               <div className="col-lg-12 col-md-12 form-group">
                 <select
-                  //   onChange={({ target: { value } }) =>
-                  //     value !== "" && handleChange(value)
-                  //   }
                   onChange={(e) => handleChange(e)}
                   value={data.type}
                   type="text"
@@ -114,7 +102,6 @@ export default function CreateMenuItem() {
                 <div className="validate" />
               </div>
             </div>
-
             <div className="text-center">
               <div className="php-email-form">
                 <button type="submit" className="col-lg-6 col-md-6">

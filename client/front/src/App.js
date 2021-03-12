@@ -16,7 +16,6 @@ import { useEffect } from "react";
 import Permissions from "./components/utils/Permissions";
 import BranchView from "./components/branch/branch-view";
 export default function App() {
-  // console.log("cookies", cookies.user.status === "success");
   const { setUserData, userData } = useStore();
   console.log("userData", userData);
   function isEmpty(obj) {
@@ -25,13 +24,11 @@ export default function App() {
   console.log(isEmpty(userData));
   const [cookies] = useCookies();
   let role = cookies?.user?.data?.user?.role ?? "";
-  // console.log("cookies", cookies.user.data.user.role);
   return (
     <dev>
       <BrowserRouter>
         <Switch>
           <Route path="/" exact component={Login} />
-          {/* <Route path="/premissions" /> */}
           <PrivateRoute path="/home">
             <MainPage />
           </PrivateRoute>
@@ -62,29 +59,10 @@ export default function App() {
               <EditBranchItem />
             </PrivateRoute>
           )}
-          {/* {role === "admin" ? (
-            <PrivateRoute path="/editbranch/:id">
-              <EditBranchItem />
-            </PrivateRoute>
-          ) : (
-            <PrivateRoute path="/home">
-              <MainPage />
-            </PrivateRoute>
-          )} */}
 
           <PrivateRoute path="/branchview/:id">
             <BranchView />
           </PrivateRoute>
-
-          {/* {role === "admin" ? (
-            <PrivateRoute path="/createbranch">
-              <CreateBranchItem />
-            </PrivateRoute>
-          ) : (
-            <PrivateRoute path="/home">
-              <MainPage />
-            </PrivateRoute>
-          )} */}
 
           {role === "admin" && (
             <PrivateRoute admin path="/createbranch">
@@ -92,13 +70,6 @@ export default function App() {
             </PrivateRoute>
           )}
         </Switch>
-        {/* {isEmpty(userData) && (
-          <div>
-            <Footer />
-            <BackToTop />
-          </div>
-        )} */}
-
         <Footer />
         <BackToTop />
       </BrowserRouter>

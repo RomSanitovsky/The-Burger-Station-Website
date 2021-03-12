@@ -6,12 +6,6 @@ import Swal from 'sweetalert2';
 
 function SignUp() {
   const history = useHistory();
-  // const [username, setUsername] = useState();
-  // const [email, setEmail] = useState();
-  // const [password, setPassword] = useState();
-  // const [passwordConfirm, setPasswordConfirm] = useState();
-  // const [favItem, setFavItem] = useState();
-  // const [favBranch, setFavBranch] = useState();
   const [user, setUser] = useState({});
   const handleChange = (e) => {
     let name = e.target.name;
@@ -22,21 +16,11 @@ function SignUp() {
     event.preventDefault();
 
     if (user.username == null || user.email == null || user.password == null)
-    Swal.fire({
-      icon: 'error',
-      title: 'Oops...',
-      text: 'Enter correct Email and at least 8 digit Password!',
-    })
-
-    // const newUser = {
-
-    //   username,
-    //   email,
-    //   password,
-    //   passwordConfirm,
-    //   favItem,
-    //   favBranch,
-    // };
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Enter correct Email and at least 8 digit Password!',
+      })
     console.log("new", user);
     await axios
       .post("http://localhost:8000/api/users/signup", user)
@@ -88,8 +72,6 @@ function SignUp() {
 
           <form
             onSubmit={handleSubmit}
-          // action="forms/book-a-table.php"
-          // className="form-control"
           >
             <div className="form-row">
               <div className="col-lg-12 col-md-12 form-group">
@@ -98,7 +80,6 @@ function SignUp() {
                   name="username"
                   className="form-control"
                   id="username"
-                  // onChange={({ target: { value } }) => setUsername(value)}
                   value={user.username}
                   placeholder="Your Username"
                   data-rule="minlen:4"
@@ -111,7 +92,6 @@ function SignUp() {
               <div className="col-lg-12 col-md-12 form-group">
                 <input
                   type="email"
-                  // onChange={({ target: { value } }) => setEmail(value)}
                   value={user.email}
                   className="form-control"
                   name="email"
@@ -127,7 +107,6 @@ function SignUp() {
               <div className="col-lg-12 col-md-12 form-group">
                 <input
                   type="password"
-                  // onChange={({ target: { value } }) => setPassword(value)}
                   value={user.password}
                   name="password"
                   className="form-control"
@@ -143,9 +122,6 @@ function SignUp() {
               <div className="col-lg-12 col-md-12 form-group">
                 <input
                   type="password"
-                  // onChange={({ target: { value } }) =>
-                  //   setPasswordConfirm(value)
-                  // }
                   value={user.passwordConfirm}
                   name="passwordConfirm"
                   className="form-control"
@@ -164,9 +140,6 @@ function SignUp() {
                 </div>
                 <select
                   name="favItem"
-                  // onChange={({ target: { value } }) =>
-                  //   value !== "" && setFavItem(value)
-                  // }
                   onChange={(e) => handleChange(e)}
                   value={user.favItem}
                   className="form-control"
@@ -192,8 +165,6 @@ function SignUp() {
                 </div>
                 <select
                   name="favBranch"
-                  // onChange={({ target: { value } }) =>
-                  //   value !== "" && setFavBranch(value)
                   // }
                   onChange={(e) => handleChange(e)}
                   value={user.favBranch}
@@ -213,13 +184,11 @@ function SignUp() {
               </div>
             </div>
             <div className="text-center">
-              {/* <Link to="/"> */}
               <div className="php-email-form text-center">
                 <button type="submit" className="col-lg-6 col-md-6">
                   Sign Up
                 </button>
               </div>
-              {/* </Link> */}
             </div>
             <br></br>
             <div className="text-center">
