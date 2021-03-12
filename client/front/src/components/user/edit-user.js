@@ -71,11 +71,11 @@ export default function EditUser() {
       <section id="book-a-table" className="book-a-table">
         <div className="container" data-aos="fade-up">
           <div className="php-email-form text-right">
-            <div>
+            {/* <div>
               <p>
                 <SignOut />
               </p>
-            </div>
+            </div> */}
           </div>
           <div className="section-title">
             <h2>User</h2>

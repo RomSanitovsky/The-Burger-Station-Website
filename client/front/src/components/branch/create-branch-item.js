@@ -17,7 +17,7 @@ export default function CreateBranchItem() {
     let value = e.target.value;
 
     setData({ ...data, [name]: value });
-    // console.log("data", data);
+     console.log("data", data);
   };
   useEffect(() => {
     setData({ ...data, itemList: multi });
@@ -25,8 +25,8 @@ export default function CreateBranchItem() {
   console.log(multi, "multy");
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (data.name == null || data.address == null || data.district == null)
-      Swal.fire({
+    if (data.city == null || data.address == null || data.district == null)
+      return Swal.fire({
         icon: 'error',
         title: 'Oops...',
         text: 'Please fill all fields!',

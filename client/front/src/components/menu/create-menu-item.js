@@ -18,7 +18,7 @@ export default function CreateMenuItem() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     if (data.name == null || data.price == null || data.type == null)
-    Swal.fire({
+    return Swal.fire({
       icon: 'error',
       title: 'Oops...',
       text: 'Please fill all fields!',
