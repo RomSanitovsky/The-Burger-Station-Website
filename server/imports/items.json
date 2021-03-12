@@ -238,5 +238,60 @@
     "name": "Chicken Wings",
     "price": 12,
     "type": "food"
+  },
+  {
+    "name": "Lemonade",
+    "price": 8,
+    "type": "drink"
+  },
+  {
+    "name": "Red Wine",
+    "price": 12,
+    "type": "drink"
+  },
+  {
+    "name": "Lemon Juice With Mint And Ginger",
+    "price": 7,
+    "type": "drink"
+  },
+  {
+    "name": "Grape Juice",
+    "price": 8,
+    "type": "drink"
+  },
+  {
+    "name": "White Wine",
+    "price": 10,
+    "type": "drink"
+  },
+  {
+    "name": "Martini",
+    "price": 13,
+    "type": "drink"
+  },
+  {
+    "name": "Red Bull Vodka",
+    "price": 10,
+    "type": "drink"
+  },
+  {
+    "name": "Arak With Lemon Juice",
+    "price": 10,
+    "type": "drink"
+  },
+  {
+    "name": "Rum And Coke",
+    "price": 12,
+    "type": "drink"
+  },
+  {
+    "name": "Aperol Spritz",
+    "price": 13,
+    "type": "drink"
+  },
+  {
+    "name": "Onion Rings",
+    "price": 9,
+    "type": "Food"
   }
 ]
