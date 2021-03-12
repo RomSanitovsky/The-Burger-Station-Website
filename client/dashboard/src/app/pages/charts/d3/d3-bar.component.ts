@@ -33,7 +33,6 @@ export class D3BarComponent implements OnDestroy, OnInit {
   yAxisLabel = 'Population';
   colorScheme: any;
   themeSubscription: any;
-  everyFiveSeconds: Observable<number> = timer(0, 5000);
   NorthCount = Number(localStorage.getItem('NorthCount'));
   CenterCount = Number(localStorage.getItem('CenterCount'));
   SouthCount = Number(localStorage.getItem('SouthCount'));
@@ -54,9 +53,6 @@ export class D3BarComponent implements OnDestroy, OnInit {
     this.results.push({ name: 'Center', value: this.CenterCount });
     this.results.push({ name: 'South', value: this.SouthCount });
 
-    this.themeSubscription = this.everyFiveSeconds.subscribe(() => {
-      this.themeSubscription();
-    });
     this.BranchesService.groupByItems().subscribe((data: any) => {
       let North = 0;
       let South = 0;
