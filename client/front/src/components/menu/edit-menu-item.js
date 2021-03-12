@@ -2,6 +2,7 @@ import { Link, useParams, useHistory } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
 import { useCookies } from "react-cookie";
+import Swal from 'sweetalert2';
 
 export default function EditMenuItem() {
   const history = useHistory();
@@ -23,16 +24,21 @@ export default function EditMenuItem() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    if (data.name.length < 1 || data.price.length < 1)
-      return alert("all fields are required");
-
-    // const change = { name: nameInput, price: priceInput, type: typeInput };
+    
     await axios.patch(`http://localhost:8000/api/items/${id}`, data, {
       headers: {
         Authorization: "Bearer " + cookies.user.token, //the token is a variable which holds the token
       },
-    });
-    history.push("/home");
+    }).then((res)=> {
+      if (res.data.status === "success") return history.push("/home");
+    }).catch((err)=>{
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: err.response.data.message,
+      })
+    })
+
   };
 
   return (

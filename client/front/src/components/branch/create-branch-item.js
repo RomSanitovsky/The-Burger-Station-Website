@@ -17,7 +17,7 @@ export default function CreateBranchItem() {
     let value = e.target.value;
 
     setData({ ...data, [name]: value });
-     console.log("data", data);
+    console.log("data", data);
   };
   useEffect(() => {
     setData({ ...data, itemList: multi });
@@ -25,19 +25,21 @@ export default function CreateBranchItem() {
   console.log(multi, "multy");
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (data.city == null || data.address == null || data.district == null)
-      return Swal.fire({
-        icon: 'error',
-        title: 'Oops...',
-        text: 'Please fill all fields!',
-      })
     axios
       .post("http://localhost:8000/api/branches", data, {
         headers: {
           Authorization: "Bearer " + cookies.user.token, //the token is a variable which holds the token
         },
       })
-      .then(() => history.push("/home"));
+      .then((res) => { 
+        if (res.data.status === "success") return history.push("/home"); 
+      }).catch((err) => {
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: err.response.data.message,
+        })
+      })
   };
 
   useEffect(() => {

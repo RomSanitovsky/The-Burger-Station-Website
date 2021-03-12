@@ -17,20 +17,28 @@ export default function CreateMenuItem() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    if (data.name == null || data.price == null || data.type == null)
-    return Swal.fire({
-      icon: 'error',
-      title: 'Oops...',
-      text: 'Please fill all fields!',
-    })
-
+    if (data.type == null ){
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Pleast enter item type!',
+      })
+    }
     await axios
       .post("http://localhost:8000/api/items", data, {
         headers: {
           Authorization: "Bearer " + cookies.user.token, //the token is a variable which holds the token
         },
       })
-      .then(() => history.push("/home"));
+      .then((res) => {
+        if (res.data.status === "success") return history.push("/home");
+      }).catch((err) => {
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: err.response.data.message,
+        })
+      });
   };
 
   return (

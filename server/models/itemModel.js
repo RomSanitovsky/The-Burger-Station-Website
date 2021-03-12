@@ -4,7 +4,7 @@ const validator = require('validator');
 const itemSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: [true , 'branch must have a Name']
+        required: [true , 'item must have a Name']
     },
 
     price : {

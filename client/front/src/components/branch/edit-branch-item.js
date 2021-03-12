@@ -2,6 +2,8 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link, useHistory, useParams } from "react-router-dom";
 import { useCookies } from "react-cookie";
+import Swal from 'sweetalert2';
+
 export default function EditBranchItem() {
   const history = useHistory();
   const [data, setData] = useState({});
@@ -37,21 +39,20 @@ export default function EditBranchItem() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    // if (
-    //   data.city.length < 1 ||
-    //   data.address.length < 1 ||
-    //   data.district.length < 1 ||
-    //   data.items.length < 1
-    // )
-    //   return alert("all fields are required");
-
-    // const change = { name: nameInput, price: priceInput, type: typeInput };
     await axios.patch(`http://localhost:8000/api/branches/${id}`, data, {
       headers: {
         Authorization: "Bearer " + cookies.user.token, //the token is a variable which holds the token
       },
-    });
-    history.push("/home");
+    })
+    .then((res)=> {
+      if (res.data.status === "success") return history.push("/home"); 
+    }).catch((err) => {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: err.response.data.message,
+      })
+    })
   };
   return (
     <div id="book-a-table">
