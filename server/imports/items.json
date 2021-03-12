@@ -1,187 +1,257 @@
 [
-    {
-        "name": "Italian Burger",
-        "price": 16.5,
-        "type": "food"
-    }, 
-    {
-        "name": "French Burger",
-        "price": 14.5,
-        "type": "food"
-    }, 
-    {
-        "name": "Austrian Burger",
-        "price": 14,
-        "type": "food"
-    }, 
-    {
-        "name": "American Burger",
-        "price": 16,
-        "type": "food"
-    }, 
-    {
-        "name": "California Burger",
-        "price": 17,
-        "type": "food"
-    }, 
-    {
-        "name": "Thai Burger",
-        "price": 12.5,
-        "type": "food"
-    }, 
-    {
-        "name": "Mexican Burger",
-        "price": 16,
-        "type": "food"
-    }, 
-    {
-        "name": "Bacon Cheeseburger",
-        "price": 15,
-        "type": "food"
-    }, 
-    {
-        "name": "Coca-Cola",
-        "price": 4,
-        "type": "drink"
-    }, 
-    {
-        "name": "Sprite",
-        "price": 4,
-        "type": "drink"
-    }, 
-    {
-        "name": "Fanta",
-        "price": 4,
-        "type": "drink"
-    }, 
-    {
-        "name": "Water",
-        "price": 2.5,
-        "type": "drink"
-    }, 
-    {
-        "name": "Corona",
-        "price": 9,
-        "type": "drink"
-    },
-    {
-        "name": "Australian Cheeseburger",
-        "price": 14,
-        "type": "food"
-    },
-    {
-        "name": "Crispy Chicken Burger",
-        "price": 10,
-        "type": "food"
-    },
-    {
-        "name": "Fish Burger",
-        "price": 10,
-        "type": "food"
-    },
-    {
-        "name": "Indian Spicy Lamb Burger",
-        "price": 15.5,
-        "type": "food"
-    },
-    {
-        "name": "Israeli Burger",
-        "price": 12,
-        "type": "food"
-    },
-    {
-        "name": "Japanese Burger",
-        "price": 14.5,
-        "type": "food"
-    },
-    {
-        "name": "Las Vegas Cheeseburger",
-        "price": 17,
-        "type": "food"
-    },
-    {
-        "name": "Espresso Milkshake",
-        "price": 8,
-        "type": "drink"
-    },
-    {
-        "name": "Chocolate Milkshake",
-        "price": 8,
-        "type": "drink"
-    },
-    {
-        "name": "German Burger",
-        "price": 15,
-        "type": "food"
-    },
-    {
-        "name": "Hawaii Burger",
-        "price": 16.5,
-        "type": "food"
-    },
-    {
-        "name": "Coca-Cola Zero",
-        "price": 4,
-        "type": "drink"
-    },
-    {
-        "name": "Chili Burger",
-        "price": 16,
-        "type": "food"
-    },
-    {
-        "name": "Cheeseburger",
-        "price": 13,
-        "type": "food"
-    },
-    {
-        "name": "Carlsberg",
-        "price": 9,
-        "type": "drink"
-    },
-    {
-        "name": "Caramel Fudge Milkshake",
-        "price": 8.5,
-        "type": "drink"
-    },
-    {
-        "name": "Cappuccino Milkshake",
-        "price": 8,
-        "type": "drink"
-    },
-    {
-        "name": "Barbecue Burger",
-        "price": 13.5,
-        "type": "food"
-    },
-    {
-        "name": "Bacon & Onion Rings Cheeseburger",
-        "price": 20,
-        "type": "food"
-    },
-    {
-        "name": "Black Cherry Milkshake",
-        "price": 8,
-        "type": "drink"
-    },
-    {
-        "name": "Red Cherry Milkshake",
-        "price": 8,
-        "type": "drink"
-    },
-    {
-        "name": "Iced Tea",
-        "price": 5,
-        "type": "drink"
-    },
-    {
-        "name": "Heineken",
-        "price": 9,
-        "type": "drink"
-    },
-    {
-        "name": "Buffalo Burger",
-        "price": 13.5,
-        "type": "food"
-    }
+  {
+    "name": "Italian Burger",
+    "price": 16.5,
+    "type": "food"
+  },
+  {
+    "name": "French Burger",
+    "price": 14.5,
+    "type": "food"
+  },
+  {
+    "name": "Austrian Burger",
+    "price": 14,
+    "type": "food"
+  },
+  {
+    "name": "American Burger",
+    "price": 16,
+    "type": "food"
+  },
+  {
+    "name": "California Burger",
+    "price": 17,
+    "type": "food"
+  },
+  {
+    "name": "Thai Burger",
+    "price": 12.5,
+    "type": "food"
+  },
+  {
+    "name": "Mexican Burger",
+    "price": 16,
+    "type": "food"
+  },
+  {
+    "name": "Bacon Cheeseburger",
+    "price": 15,
+    "type": "food"
+  },
+  {
+    "name": "Coca-Cola",
+    "price": 4,
+    "type": "drink"
+  },
+  {
+    "name": "Sprite",
+    "price": 4,
+    "type": "drink"
+  },
+  {
+    "name": "Fanta",
+    "price": 4,
+    "type": "drink"
+  },
+  {
+    "name": "Water",
+    "price": 2.5,
+    "type": "drink"
+  },
+  {
+    "name": "Corona-Beer",
+    "price": 9,
+    "type": "drink"
+  },
+  {
+    "name": "Australian Cheeseburger",
+    "price": 14,
+    "type": "food"
+  },
+  {
+    "name": "Crispy Chicken Burger",
+    "price": 10,
+    "type": "food"
+  },
+  {
+    "name": "Fish Burger",
+    "price": 10,
+    "type": "food"
+  },
+  {
+    "name": "Indian Spicy Lamb Burger",
+    "price": 15.5,
+    "type": "food"
+  },
+  {
+    "name": "Israeli Burger",
+    "price": 12,
+    "type": "food"
+  },
+  {
+    "name": "Japanese Burger",
+    "price": 14.5,
+    "type": "food"
+  },
+  {
+    "name": "Las Vegas Cheeseburger",
+    "price": 17,
+    "type": "food"
+  },
+  {
+    "name": "Espresso Milkshake",
+    "price": 8,
+    "type": "drink"
+  },
+  {
+    "name": "Chocolate Milkshake",
+    "price": 8,
+    "type": "drink"
+  },
+  {
+    "name": "German Burger",
+    "price": 15,
+    "type": "food"
+  },
+  {
+    "name": "Hawaii Burger",
+    "price": 16.5,
+    "type": "food"
+  },
+  {
+    "name": "Coca-Cola Zero",
+    "price": 4,
+    "type": "drink"
+  },
+  {
+    "name": "Chili Burger",
+    "price": 16,
+    "type": "food"
+  },
+  {
+    "name": "Cheeseburger",
+    "price": 13,
+    "type": "food"
+  },
+  {
+    "name": "Carlsberg",
+    "price": 9,
+    "type": "drink"
+  },
+  {
+    "name": "Caramel Fudge Milkshake",
+    "price": 8.5,
+    "type": "drink"
+  },
+  {
+    "name": "Cappuccino Milkshake",
+    "price": 8,
+    "type": "drink"
+  },
+  {
+    "name": "Barbecue Burger",
+    "price": 13.5,
+    "type": "food"
+  },
+  {
+    "name": "Bacon & Onion Rings Cheeseburger",
+    "price": 20,
+    "type": "food"
+  },
+  {
+    "name": "Black Cherry Milkshake",
+    "price": 8,
+    "type": "drink"
+  },
+  {
+    "name": "Red Cherry Milkshake",
+    "price": 8,
+    "type": "drink"
+  },
+  {
+    "name": "Iced Tea",
+    "price": 5,
+    "type": "drink"
+  },
+  {
+    "name": "Heineken",
+    "price": 9,
+    "type": "drink"
+  },
+  {
+    "name": "Buffalo Burger",
+    "price": 13.5,
+    "type": "food"
+  },
+  {
+    "name": "Sparkling Water",
+    "price": 4,
+    "type": "drink"
+  },
+  {
+    "name": "African Burger",
+    "price": 14,
+    "type": "food"
+  },
+  {
+    "name": "Whiskey",
+    "price": 15,
+    "type": "drink"
+  },
+  {
+    "name": "French Fries",
+    "price": 8,
+    "type": "food"
+  },
+  {
+    "name": "Potato Chips",
+    "price": 8,
+    "type": "food"
+  },
+  {
+    "name": "Sprite",
+    "price": 6,
+    "type": "drink"
+  },
+  {
+    "name": "Salad",
+    "price": 7,
+    "type": "food"
+  },
+  {
+    "name": "Fanta",
+    "price": 6,
+    "type": "drink"
+  },
+  {
+    "name": "Chicken Nuggets",
+    "price": 11,
+    "type": "food"
+  },
+  {
+    "name": "Potato Chips",
+    "price": 8,
+    "type": "food"
+  },
+  {
+    "name": "Carlsburg",
+    "price": 10,
+    "type": "drink"
+  },
+  {
+    "name": "Indian Burger",
+    "price": 14,
+    "type": "food"
+  },
+  {
+    "name": "Orange Juice",
+    "price": 9,
+    "type": "drink"
+  },
+  {
+    "name": "Chicken Wings",
+    "price": 12,
+    "type": "food"
+  }
 ]

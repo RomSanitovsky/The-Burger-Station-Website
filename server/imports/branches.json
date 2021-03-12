@@ -1,44 +1,157 @@
 [
-    {
-        "city": "Haifa",
-        "address": "Grinboim 44",
-        "district": "Northern"
-    },
-    {
-        "city": "Tel Aviv",
-        "address": "Ahad Aham 71",
-        "district": "Central"
-    },{
-        "city": "Petach Tikva",
-        "address": "4 Ben Hoor",
-        "district": "Central"
-    },{
-        "city": "Ashdod",
-        "address": "Haavoda 37",
-        "district": "Southern"
-    },{
-        "city": "Holon",
-        "address": "19 Habanai",
-        "district": "Central"
-    },{
-        "city": "Ramat Hasharon",
-        "address": "Boaz 6",
-        "district": "Central"
-    },{
-        "city": "Kiryat Motzkin",
-        "address": "Groshkevitz 34",
-        "district": "Northern"
-    },{
-        "city": "Jerusalem",
-        "address": "Emek Refaim 7",
-        "district": "Central"
-    },{
-        "city": "Afula",
-        "address": "Sprintzak 3",
-        "district": "Northern"
-    },{
-        "city": "Eilat",
-        "address": "Sderot Sheshet Hayamim 6",
-        "district": "Southern"
-    }
+  {
+    "city": "Haifa",
+    "address": "Grinboim 44",
+    "district": "Northern"
+  },
+  {
+    "city": "Tel Aviv",
+    "address": "Ahad Aham 71",
+    "district": "Central"
+  },
+  {
+    "city": "Petach Tikva",
+    "address": "4 Ben Hoor",
+    "district": "Central"
+  },
+  {
+    "city": "Ashdod",
+    "address": "Haavoda 37",
+    "district": "Southern"
+  },
+  {
+    "city": "Holon",
+    "address": "19 Habanai",
+    "district": "Central"
+  },
+  {
+    "city": "Ramat Hasharon",
+    "address": "Boaz 6",
+    "district": "Central"
+  },
+  {
+    "city": "Kiryat Motzkin",
+    "address": "Groshkevitz 34",
+    "district": "Northern"
+  },
+  {
+    "city": "Jerusalem",
+    "address": "Emek Refaim 7",
+    "district": "Central"
+  },
+  {
+    "city": "Afula",
+    "address": "Sprintzak 3",
+    "district": "Northern"
+  },
+  {
+    "city": "Eilat",
+    "address": "Sderot Sheshet Hayamim 6",
+    "district": "Southern"
+  },
+  {
+    "city": "Haifa",
+    "address": "Menachem Mendel Beilis 4",
+    "district": "Northern"
+  },
+  {
+    "city": "Rishon Lezion",
+    "address": "3/31 Habad",
+    "district": "Central"
+  },
+  {
+    "city": "Bat Yam",
+    "address": "Haavoda 6",
+    "district": "Central"
+  },
+  {
+    "city": "Petah Tikva",
+    "address": "Efal 19",
+    "district": "Central"
+  },
+  {
+    "city": "Ashdod",
+    "address": "Yerushalaim Blvd 19",
+    "district": "Southern"
+  },
+  {
+    "city": "Haifa",
+    "address": "Yechie 6",
+    "district": "Northern"
+  },
+  {
+    "city": "Nesher",
+    "address": "Hashalom Rd 20",
+    "district": "Northern"
+  },
+  {
+    "city": "Netivot",
+    "address": "New Industrial Zone",
+    "district": "Southern"
+  },
+  {
+    "city": "Tiberias",
+    "address": "Hamerchatzaot 1",
+    "district": "Northern"
+  },
+  {
+    "city": "Ramat Gan",
+    "address": "Menachem Begin Rd 12",
+    "district": "Central"
+  },
+  {
+    "city": "Bnei Brak",
+    "address": "Jabotinsky 178",
+    "district": "Central"
+  },
+  {
+    "city": "Arad",
+    "address": "Yom El",
+    "district": "Southern"
+  },
+  {
+    "city": "Rishon Lezion",
+    "address": "Saharov David 19",
+    "district": "Central"
+  },
+  {
+    "city": "Tel Aviv",
+    "address": "Nachalat Itzhak 18",
+    "district": "Central"
+  },
+  {
+    "city": "Kiryat Motzkin",
+    "address": "Usha 24",
+    "district": "Northern"
+  },
+  {
+    "city": "Petah Tikva",
+    "address": "Greenberg Haim 9",
+    "district": "Central"
+  },
+  {
+    "city": "Ashdod",
+    "address": "4/20 Exodus",
+    "district": "Southern"
+  },
+  {
+    "city": "Haifa",
+    "address": "Hanetka 94",
+    "district": "Northern"
+  },
+  {
+    "city": "Afula",
+    "address": "17 Holland",
+    "district": "Northern"
+  },
+  {
+    "city": "Tel Aviv",
+    "address": "Yehuda Hayamit 17",
+    "district": "Central"
+  },
+  {
+    "city": "Yavne",
+    "address": "Erez 19",
+    "district": "Southern"
+  }
 ]
