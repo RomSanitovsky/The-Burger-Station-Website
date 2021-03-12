@@ -2,7 +2,7 @@
 
 ## Description
 
-A web application for a fast-food company we developed during our "Web Application Development" course taught by Dr. Igor Rochlin. This project helped us to gain a higher level of knowledge in programming web applications using MVC architecture. We further advanced our skills with web languages such as C#, JavaScript (jQuery & 3D.js libraries), HTML\CSS, LINQ, and Razor.
+A web application for a fast-food company we developed during our "Advanced Web Application Development" course taught by Menachem Leibovich. This project helped us to gain a higher level of knowledge in programming web applications JS technologies. We further our skills with web languages such as NodeJS, JavaScript ,React, MongoDB, and Angular.
 
 #### Languages and Stack
 
