@@ -24,7 +24,7 @@ export default function App() {
   }
   console.log(isEmpty(userData));
   const [cookies] = useCookies();
-  let role = cookies.user.data.user.role
+  let role = cookies?.user?.data?.user?.role ?? "";
   // console.log("cookies", cookies.user.data.user.role);
   return (
     <dev>
