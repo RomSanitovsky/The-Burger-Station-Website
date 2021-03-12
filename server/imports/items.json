@@ -292,6 +292,6 @@
   {
     "name": "Onion Rings",
     "price": 9,
-    "type": "Food"
+    "type": "food"
   }
 ]
